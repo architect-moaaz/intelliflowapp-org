@@ -1,0 +1,33 @@
+.botsidebarMain {
+  background: #fff;
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
+  box-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+  display: flex;
+  height: calc(100% - 106px - 1rem);
+  margin-top: 0px !important;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  transition: width 1s;
+  width: 80px;
+  z-index: 1;
+}
+.botsidebarMain ul {
+  margin-top: 1rem;
+  overflow-y: auto;
+  padding: 15 15px;
+}
+.botsidebarMain .bot-menu {
+  align-items: center;
+  align-self: center;
+  display: flex;
+  flex-wrap: wrap;
+  height: 50px;
+  place-content: center;
+}
+
+.bot-Question {
+  display: flex;
+  place-items: center;
+}

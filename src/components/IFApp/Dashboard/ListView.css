@@ -1,0 +1,258 @@
+.process {
+  width: 15%;
+  min-width: 15%;
+}
+.application-mains {
+  /* position: absolute; */
+  top: 100px;
+  left: 3px;
+  /* margin-left: 130px; */
+}
+
+.sideMenu ul {
+  position: relative;
+  right: 25px;
+  top: 80px;
+  /* width: 75px; */
+}
+.sideMenu ul li {
+  color: #0d3c84;
+  font-size: 8px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0px;
+  text-align: center;
+  width: 61px;
+}
+.datarow,
+tr {
+  width: 1013px;
+  height: 35px;
+  background: #fafafa;
+  border-radius: 4px;
+}
+.datarow tr {
+  margin-bottom: 20px;
+  /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px!important; */
+}
+
+.right {
+  position: absolute;
+  right: 234px;
+}
+.sideMenu {
+  height: 562px;
+  width: 75px;
+  left: 0px;
+  top: 0px;
+  border-radius: 8px;
+  position: absolute;
+  top: 115px !important;
+  bottom: 0%;
+
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+
+.Head {
+  border-radius: 4px;
+  background-color: #0d3c84;
+  padding: 10px 15px;
+  width: 100%;
+}
+.Head h2 {
+  display: inline;
+  width: 200px;
+  /* margin:0px 200px 0px 0px!important; */
+  margin-right: 50px;
+  color: white;
+  font-size: medium;
+}
+.Data h2 {
+  width: 164px;
+  height: 22px;
+  left: 199px;
+  top: 0px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 22px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #3c3c3c;
+}
+.Data {
+  border-radius: 4px;
+  background-color: white;
+  margin: 0px 0px 3px 0px;
+  width: 100%;
+  height: 35px;
+  box-shadow: 4px 4px 4px rgb(0 0 0 / 25%);
+}
+
+.Data1 {
+  border-radius: 4px;
+  background-color: white;
+  padding: 0px 0px;
+  width: 100%;
+  overflow-y: auto;
+  height: 225px;
+  margin-left: 1.5vh;
+  margin-top: 15px;
+}
+.Data ul {
+  height: 30px;
+  background: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.3) 1.95px 1.95px 2.6px;
+  border-radius: 4px;
+}
+
+.breadcrumps ul li {
+  display: inline;
+}
+.breadcrumps ul {
+  position: absolute;
+  left: 8px;
+  top: 80.15px;
+}
+.breadcrumps img {
+  height: 15px;
+  width: 18px;
+  position: absolute;
+  left: 20.8px;
+  top: 85.15px;
+}
+.switchview ul li {
+  display: inline;
+}
+.switchview ul li img {
+  height: 15px;
+  width: 18px;
+  position: absolute;
+  right: 20.8px;
+  top: 85.15px;
+}
+/* .Head ul li:last-child{
+    padding-right: 300px!important;
+}
+.Head ul li:first-child{
+    padding-left: 0px!important;
+} */
+
+.main {
+  /* flex-shrink: 0 0 100%; */
+  display: flex;
+  /* flex-shrink: 0; */
+  flex-grow: 0.9;
+}
+
+.Processflowbox {
+  margin-top: 10px;
+  height: 35px;
+  width: 100%;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  box-shadow: 4px 4px 4px rgb(0 0 0 / 25%);
+  background: #fafafa;
+  border-radius: 4px;
+  position: relative;
+}
+.processimg1 {
+  height: 13px;
+  width: 13px;
+  position: absolute;
+  right: 17px;
+  top: 13px;
+}
+.noRecord {
+  box-sizing: border-box;
+
+  width: 973px;
+  height: 178px;
+  left: 137px;
+  top: 181px;
+
+  background: #ffffff;
+  border: 1px solid #c4c4c4;
+  border-radius: 10px;
+}
+.noRecordData {
+  /* position: absolute; */
+  width: 312px;
+  height: 34px;
+  left: 484px;
+  top: 253px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 22px;
+  /* or 88% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 1px;
+
+  color: #8a8a8a;
+  margin-left: 399px;
+  margin-top: 77px;
+}
+.Data .gridstatuspending {
+  width: 100px;
+  /* left: 504px; */
+  top: 1px;
+  background: #e5e5e5;
+  border-radius: 4px;
+  color: #f50e0e;
+}
+.Data .gridstatusapproved {
+  width: 100px;
+  /* left: 504px; */
+  top: 1px;
+  background: #e5e5e5;
+  border-radius: 4px;
+  color: #34a853;
+}
+.gridactiondone {
+  margin-left: 55px;
+}
+.griddate {
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 1px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 1px;
+  color: #3c3c3c;
+}
+
+.ListCardProcessFlowRow,
+.ListCardProcessFlowCol {
+  margin: 0px;
+  padding: 0px;
+}
+
+.ListCardProcessFlowCol {
+  padding-right: 10px;
+}
+
+.ListViewRecentActionRow {
+  overflow-y: scroll;
+  height: 185px;
+}
+.listView-application-mains {
+  margin-top: 0px;
+  width: 100%;
+}
+.listView-your-application {
+  margin-left: 1.5vw;
+}

@@ -1,0 +1,193 @@
+.react-grid-layout {
+  position: relative;
+  transition: height 200ms ease;
+}
+
+.react-grid-layout .UiMockContainerClick {
+  background: rgb(208, 225, 253);
+  border: 2px dashed rgb(13, 60, 132);
+  box-shadow: rgb(0 0 0 / 3%) 1px 1px 2px 1px;
+  border-radius: 5px;
+  padding: 3px;
+  /* height: auto !important; */
+}
+.react-grid-layout .UiMockContainer {
+  border: 2px solid #e5e5e5;
+  background: #ffffff;
+  box-shadow: rgb(0 0 0 / 3%) 1px 1px 2px 1px;
+  border-radius: 5px;
+  padding: 3px;
+  /* height: auto !important; */
+}
+/* .react-grid-item {
+  transition: all 200ms ease;
+  transition-property: left, top;
+  background: rgba(0, 132, 255, 0.473);
+  text-align: center;
+} */
+.react-grid-item .mockElementSpan {
+  width: calc(100% - 45px);
+  display: inline-block;
+  padding: 10px 10px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+/* .bgimage {
+  background-image: url("https://intelliflow.in/formBG.jpg");
+  background-repeat: repeat;
+  background-size: 25%;
+} */
+.react-grid-item {
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.03);
+  border-radius: 5px;
+}
+.react-grid-item.cssTransforms {
+  transition-property: transform;
+}
+.react-grid-item.resizing {
+  z-index: 1;
+  will-change: width, height;
+}
+.ModalPropertySection h5 {
+  text-transform: capitalize;
+}
+
+.react-grid-item.react-draggable-dragging {
+  transition: none;
+  z-index: 3;
+  will-change: transform;
+}
+
+.react-grid-item.react-grid-placeholder {
+  background: red;
+  opacity: 0.2;
+  transition-duration: 100ms;
+  z-index: 2;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.react-grid-item > .react-resizable-handle {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  bottom: 0;
+  right: 0;
+  cursor: se-resize;
+}
+
+.react-grid-item > .react-resizable-handle::after {
+  content: "";
+  position: absolute;
+  right: 3px;
+  bottom: 3px;
+  width: 5px;
+  height: 5px;
+  /* border-right: 2px solid rgba(0, 0, 0, 0.4);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.4); */
+}
+.mockElement {
+  padding: 2px 8px;
+  background: #ffffff;
+  border-radius: 5px 5px 5px 5px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  place-content: center;
+}
+.mockElement span img {
+  padding-right: 10px;
+}
+.accessibility-link:hover {
+  color: black;
+}
+.nav-pills .propertiesPopup {
+  background-color: none !important;
+  color: #8a8a8a !important;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  /* margin-left: 40px !important; */
+}
+.nav-pills .propertiesPopup.active {
+  background-color: #ffffff00 !important;
+  color: #ff5711 !important;
+  border-bottom: 3px solid #ff5711 !important;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.ModalPropertySection .modal-body {
+  height: 300px;
+  width: 100%;
+  padding: 0px;
+}
+.ModalPropertySection .modal-header {
+  background: #0d3c84;
+  border-radius: 10px 10px 0px 0px;
+  color: #fff;
+  height: 50px;
+  width: auto;
+  cursor: move;
+}
+.ModalPropertySection .modal-dialog {
+  position: absolute;
+  right: 10vh;
+  top: 25vh;
+  margin: 110px 45px 45px 260px;
+}
+
+.FormElementsPropertiesSection {
+  position: relative;
+}
+
+.ModalPropertySection .modal-content {
+  width: 540px;
+  height: 400px;
+}
+.ModalPropertySection h4 {
+  text-transform: capitalize;
+}
+
+.close-box {
+  position: absolute;
+  top: 8px;
+  right: 15px;
+  color: white;
+}
+.ModalPropertySection .modal-title {
+  width: 100%;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.mock-ui-del-icon {
+  cursor: pointer;
+}
+
+.FormElementsBackdrop {
+  opacity: 0 !important;
+}
+.sectionContainer {
+  padding: 2px 8px;
+  background: #ffffff;
+  border-radius: 5px 5px 5px 5px;
+  height: 100%;
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+.custom-switch {
+  padding-right: 10px !important;
+}

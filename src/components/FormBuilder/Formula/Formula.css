@@ -1,0 +1,7 @@
+.react-autocomplete-textArea {
+  height: 62px;
+  min-height: 62px !important;
+  max-height: 93px !important;
+  width: 100% !important;
+  border-radius: 0px !important;
+}

@@ -1,0 +1,337 @@
+.MyProfile {
+  background: rgba(250, 250, 250, 0.5);
+  border-radius: 3px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: #ff5711;
+  box-shadow: 2px 2px #888888;
+  width: 114px;
+  height: 30px;
+  margin-right: 35px !important;
+  margin-top: 3px !important;
+}
+
+.profilebackground {
+  width: 100%;
+  height: 43px;
+  background: rgba(240, 240, 240, 0.61);
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  position: fixed;
+}
+
+.Account {
+  width: 298px;
+  height: 22px;
+  left: 106px;
+  top: 104px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 1px;
+  justify-content: space-evenly;
+  color: #0d3c84;
+  margin-top: 10px;
+  margin-left: 55px;
+}
+/* .profile-content{
+    display: flex;
+    min-height: 100vh;
+    min-width: 100vh;
+    background: pink;
+} */
+
+.profile-main-content {
+  min-height: 90vh;
+  min-width: 100%;
+  padding-left: 3rem !important;
+  padding-top: 8rem;
+  /* background: #d49797; */
+}
+
+.profile-main-section {
+  margin-top: 10rem !important;
+  padding-left: 2rem !important;
+
+  /* background: #000; */
+}
+.profileUserInfoWrapper {
+  height: 30vh;
+  width: 90%;
+  display: flex;
+  border-bottom: 1px solid #c4c4c4;
+}
+
+.profileUserImage {
+  height: 6.25rem;
+  width: 6.25rem;
+  background: pink;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profileUserInfo {
+  padding-left: 2rem;
+}
+
+.profileUserInfo span {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 22px;
+  letter-spacing: 1px;
+}
+
+.change-pass-wrapper {
+  display: flex;
+}
+.profiel-change-pss-col {
+  width: 50%;
+}
+.profiel-change-pss-col input {
+  width: 40%;
+}
+
+.change-pass-cred-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.my-profile-container {
+  margin-top: 70px;
+  padding: 0;
+  box-sizing: border-box;
+  height: calc(100vh - 70px);
+}
+
+.profile-info-section {
+  padding-left: 3rem !important;
+}
+
+.profile-info-wrapper {
+  display: flex;
+}
+
+.profile-user-info {
+  /* height: 6.5rem;
+  width: 6.5rem;
+  border-radius: 50%;
+  object-fit: cover; */
+  /* border: 1px solid black; */
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+  /* position: relative; */
+}
+.profile-user-uploaded-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.profile-info-wrapper label {
+  cursor: pointer;
+  position: relative;
+  top: 88px;
+  right: 28px;
+}
+/* .profile-user-cred {
+  padding-left: 2rem;
+  display: flex;
+  justify-content: center;
+} */
+
+.profile-user-cred {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 1rem;
+  padding-left: 0.7rem;
+}
+.profile-user-cred span {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 22px;
+  letter-spacing: 1px;
+  margin-bottom: 0.5rem;
+  color: #3c3c3c;
+}
+.profile-user-cred p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #8a8a8a;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+}
+
+.profile-user-details {
+  margin-top: 2rem !important ;
+  margin-left: 4rem !important;
+  border-bottom: 1px solid #c4c4c4;
+  height: 102px;
+}
+.profile-user-line {
+  border-bottom: 1px solid #c4c4c4;
+  margin-top: 3rem !important;
+  margin-left: 4rem !important;
+  margin-bottom: 3rem !important;
+  width: 88%;
+}
+.profile-user-details-col {
+  display: flex;
+  flex-direction: column;
+}
+.profile-user-details-col span {
+  display: flex;
+  flex-direction: column;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.profile-user-details-col input {
+  height: 40px;
+  width: 280px;
+  border: 1px solid #c4c4c4;
+  border-radius: 3px;
+  margin-top: 0.3rem;
+  padding: 8px;
+}
+.profile-user-change-pass {
+  margin-top: 2rem !important ;
+  margin-left: 4rem !important;
+}
+.profile-user-change-pass-container {
+  padding: 0;
+}
+.profile-change-pass-wrapper {
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+
+.profile-change-pass-wrapper span {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 22px;
+  margin-right: 1.5rem;
+}
+.profile-change-pass-wrapper button {
+  width: 5rem;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.profile-change-pass-wrapper button:hover {
+  width: 5rem;
+}
+.profile-change-pass-form {
+  width: 40%;
+  margin-top: 1rem;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+.profile-change-pass-form label {
+  margin: 0;
+}
+.profile-change-pass-form-active label {
+  opacity: 0.3;
+}
+
+.profile-change-pass-form input {
+  width: 17.5rem;
+  height: 2.5rem;
+  pointer-events: initial;
+  border-color: #c4c4c4;
+}
+.profile-change-pass-form-active input {
+  opacity: 0.3;
+  pointer-events: none;
+}
+
+.change-pass-wrapper button {
+  height: 30px;
+  width: 148px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem !important;
+}
+.change-pass-save-btn {
+  margin-right: 1.5rem !important;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+}
+.change-pass-wrapper button:hover {
+  height: 30px;
+  width: 148px;
+}
+
+.profile-pass-validation {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 5rem;
+}
+.profile-pass-validation label {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 1px;
+}
+
+.pass-err-msg {
+  opacity: 0.5;
+}
+
+.pass-err-msg img {
+  margin-right: 1.5rem;
+}
+
+.pass-err-msg-active {
+  opacity: 1;
+}
+
+.currentpassword-disabled {
+  pointer-events: none !important;
+}
+.mobile-no-arrow {
+  -moz-appearance: textfield;
+}
+.mobile-no-arrow::-webkit-inner-spin-button {
+  display: none;
+}
+.mobile-no-arrow::-webkit-outer-spin-button,
+.mobile-no-arrow::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

@@ -1,0 +1,12 @@
+{
+    "welcome": {
+        "workspace": "مساحة العمل",
+        "login": "تسجيل الدخول",
+        "email": "عنوان الايميل",
+        "password": "كلمه السر",
+        "rememberMe": "تذكرنى",
+        "forgotPassword": "هل نسيت كلمة السر",
+        "enteredEmailorPasswordiswrong": "معرف البريد الإلكتروني أو كلمة المرور التي تم إدخالها خاطئة",
+        "pleaseenterallthemandatoryfields": "الرجاء إدخال جميع الحقول الإلزامية"
+    }
+}

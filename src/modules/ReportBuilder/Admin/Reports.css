@@ -1,0 +1,87 @@
+.create-report-section {
+  background-color: rgba(229, 229, 229, 0.5);
+}
+
+.create-report-message {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  color: #0d3c84;
+}
+
+.create-report-input-label {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.report-name {
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
+  width: 100%;
+  height: 30px;
+  outline: none;
+}
+
+.data-model-btn {
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
+  width: 100%;
+  text-align: start;
+  color: rgba(0, 0, 0, 0.8);
+  height: 30px;
+  outline: none;
+}
+
+.dropdown-menu-scroll-dm.show {
+  width: inherit;
+}
+
+.create-report-btn {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+
+.create-report-btn:hover {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+} 
+
+.reports-table-heading {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  color: #0d3c84;
+}
+
+.report-search {
+  display: flex;
+  flex-direction: row;
+}
+
+.report-searchicon {
+  margin-right: -20px;
+  z-index: 1;
+}
+
+.report-searchinput {
+  padding-left: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 1px solid rgba(192, 189, 189, 0.25);
+  outline: none;
+  border-radius: 5px;
+  background-color: #ffffff;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 12px;
+  /* identical to box height */
+  width: 100%;
+
+  color: rgba(0, 0, 0);
+}

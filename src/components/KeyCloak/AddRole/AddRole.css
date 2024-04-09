@@ -1,0 +1,49 @@
+.role_form label {
+  color: #3c3c3c !important;
+  letter-spacing: 0.02em;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  width: 120px;
+}
+
+.role_form label span {
+  color: #f50e0e;
+  font-weight: bold;
+}
+
+.role_form input,
+.role_form textarea,
+.role_form select {
+  width: 85%;
+  padding: 8px 10px;
+  border: 1px solid #8a8a8a;
+  border-radius: 5px;
+}
+
+.role_form input:focus,
+.role_form textarea:focus,
+.role_form select:focus {
+  border: 1px solid #004166;
+  box-shadow: none;
+  outline: none;
+  transition: all 0.5s;
+}
+
+.role_form_btn {
+  display: flex;
+  align-items: center;
+}
+
+.role_form_btn a {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: 0 10px;
+  height: 32px;
+}
+
+.role_form_btn a.btn-orange {
+  color: #fff;
+}

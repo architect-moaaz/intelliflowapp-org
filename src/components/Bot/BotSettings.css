@@ -1,0 +1,75 @@
+.bot-setting-body{
+   
+    padding: 0px 40px 20px 40px;
+    height: calc(100% - 145px);
+    overflow: auto;
+}
+.bot-settings-pills{
+    border-bottom: 1px solid #a9bbc9;
+    margin: 20px 0 20px;
+    align-items: center;
+    margin-left: 98px;
+}
+.bot-settings-pills.nav-pills .nav-link.active, .bot-settings-pills.nav-pills .show > .nav-link {
+    color: #fa5b3d;
+    box-shadow: 0px 1px #fa5b3d, inset 0px -2px #fa5b3d;
+}
+.bot-settings-pills .nav-link {
+    padding: 14px 10px;
+    background: transparent !important;
+    letter-spacing: 0.2px;
+    color: #8a8a8a;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    cursor: pointer;
+    border-radius: 0;
+    margin-right: 20px;
+}
+.bot-setting-sidebar{
+    padding-top: 80px;
+}
+.setting-data{
+    margin-left: 95px;
+}
+.setting-data span{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* color: rgba(60, 60, 60, 0.8); */
+    color: #3c3c3c;
+}
+.setting-data input{
+    border-radius: 5px;
+    background: #ffffff;
+    border: 1px solid #e5e5e5;
+    box-sizing: border-box;
+    border-radius: 3px;
+    height: 60px;
+    font-size: 14px;
+    line-height: 32px;
+    color: #3c3c3c;
+    width: 32%;
+    margin:10px 0px 15px 0px;
+    padding: 10px;
+}
+.setting-save-button{
+    margin-top: 50px;
+}
+
+.setting-data input:disabled {
+    color: black;
+}
+
+.avatar-upload .uploadImage{
+    margin-left: 30px !important;
+}
+.image-preview-content img{
+height: 100px;
+width: 100px;
+}

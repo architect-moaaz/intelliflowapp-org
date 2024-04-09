@@ -1,0 +1,68 @@
+{
+    "data" : {
+        "light" : {
+            "id": "T_001",
+            "name": "Light",
+            "type":"Studio",
+            "default":true,
+            "colors": {
+                "header":"rgba(13,60,132,1)",
+                "leftHeader":"#FFFFFF",
+                "body": "rgba(248,248,251,1)",
+                "text": "#000000",
+                "button": {
+                    "text": "#FFFFFF",
+                    "background": "#000000"
+                },
+                "link": {
+                    "text": "teal",
+                    "opacity": 1
+                }
+            },
+            "font": "Lato"
+        },
+        "dark" : {
+            "id": "T_002",
+            "name": "Dark",
+            "default":true,
+            "type":"Studio",
+            "colors": {
+                "header":"#000000",
+                "leftHeader":"#000000",
+                "body": "#000000",
+                "text": "#FFFFFF",
+                "button": {
+                    "text": "#000000",
+                    "background": "#FFFFFF"
+                },
+                "link": {
+                    "text": "teal",
+                    "opacity": 1
+                }
+            },
+            "font": "Roboto"
+        },
+        "material" : {
+            "id": "T_003",
+            "name": "Material",
+            "type":"Studio",
+            "default":false,
+            "colors": {
+                "leftHeader":"#6a1b9a",
+
+                "header":"#6a1b9a",
+                "body": "#6a1b9a",
+                "text": "#ebdbf5",
+                "button": {
+                    "text": "#6a1b9a",
+                    "background": "#ebdbf5"
+                },
+                "link": {
+                    "text": "#ebdbf5",
+                    "opacity": 0.8
+                }
+            },
+            "font": "Abel"
+        }
+    }
+}

@@ -1,0 +1,33 @@
+.Spreadsheet {
+  overflow: auto !important;
+  width: 100% !important;
+  max-height: 100% !important;
+}
+.Spreadsheet__header {
+  background-color: #0d3c84 !important;
+  color: white !important;
+}
+
+.Spreadsheet__table {
+  border-collapse: collapse !important;
+  table-layout: fixed !important;
+  /* overflow: auto; */
+  display: block !important;
+}
+
+.Spreadsheet::-webkit-scrollbar-track {
+  border-radius: 10px !important;
+  background-color: #fff !important;
+}
+
+.Spreadsheet::-webkit-scrollbar {
+  width: 7px !important;
+  height: 7px !important;
+  background-color: #d9d9d9 !important;
+  position: fixed !important;
+}
+
+.Spreadsheet::-webkit-scrollbar-thumb {
+  border-radius: 10px !important;
+  background-color: #d9d9d9 !important;
+}

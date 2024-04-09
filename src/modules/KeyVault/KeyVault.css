@@ -1,0 +1,161 @@
+.KeyVault {
+  height: 91vh;
+  overflow: auto;
+  margin-top: 9vh;
+  padding: 0px 50px;
+}
+.KeyVaultHeader {
+  margin-top: 30px;
+}
+
+.KeyVaultHeader p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: rgba(60, 60, 60, 0.8);
+}
+
+.create-new-key {
+  margin-top: 50px !important;
+}
+
+.KeyVault-table {
+  margin-top: 100px;
+}
+
+.KeyVault-table p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: #2d2d2d;
+}
+.GenerateKeyPopupButton {
+  background: #ff5711;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  width: 100px;
+  margin-right: 50px !important;
+}
+.GenerateKeyPopupButton:disabled {
+  background: #ff5711;
+  opacity: 0.7;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  width: 100px;
+  margin-right: 50px !important;
+}
+.UpdateKeyPopupButton {
+  background: #ff5711;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  width: 100px;
+  margin-right: 50px !important;
+}
+.UpdateKeyPopupButton:disabled {
+  background: #ff5711;
+  opacity: 0.7;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  width: 100px;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+}
+
+.GenerateKeyPopupButtonCancel {
+  color: #ff5711;
+  background: #ffffff;
+  border: 0.5px solid #ff8872;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  width: 100px;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+  margin-right: 50px !important;
+}
+
+.nav-pills .KeyVaultPopupnav-link {
+  background-color: none !important;
+  color: #8a8a8a !important;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  /* margin-left: 40px !important; */
+}
+.nav-pills .KeyVaultPopupnav-link.active {
+  background-color: #ffffff !important;
+  color: #ff5711 !important;
+  border-bottom: 3px solid #ff5711 !important;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.KeyVault-content {
+  position: relative;
+  justify-content: flex-start !important;
+  margin-bottom: 10px;
+}
+
+.KeyVault-popup-body {
+  padding-top: 0px;
+}
+
+.KeyVault-DataFields {
+  margin-left: 15px;
+}
+
+.GenerateKeyPopupButtonContainer {
+  /* width: 65%; */
+  display: flex;
+  /* justify-content: space-between; */
+  margin-top: 17px !important;
+}
+
+.KeyVaultPopup .modal-dialog {
+  width: 675px;
+  max-width: 800px;
+  min-width: 549px;
+}
+
+.keyVautFormInput {
+  height: 65px;
+}
+
+.keyVautFormInput .KeyVaultInputText {
+  background: #ffffff;
+  border: 1px solid #adadad;
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+  height: 35px;
+  padding: 0 10px;
+}
+
+.DataOperationTypeSelect__control {
+  border: 1px solid #adadad;
+  border-radius: 4px;
+  height: 35px;
+  display: flex;
+  align-content: center;
+}
+
+.DataFields-LeftSide {
+  padding-right: 10px !important;
+}
+.DataFields-RightSide {
+  padding-left: 10px !important;
+}
+.SelectDataOperation {
+  width: 60%;
+}
+.DataFieldsRest {
+  width: 60%;
+}

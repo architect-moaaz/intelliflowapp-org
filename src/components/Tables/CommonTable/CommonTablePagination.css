@@ -1,0 +1,18 @@
+.page-item{
+    height: 28px;
+    width: 28px;
+    border-radius: 5px;
+    display: flex;
+    background-color: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+ul.pagination-button-container{
+    display: flex;
+    flex-direction: row;
+    padding:0px;
+    margin-bottom: 0px;
+}

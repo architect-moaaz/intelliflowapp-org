@@ -1,0 +1,1977 @@
+.appdesigner-application-container {
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin-top: 70px !important;
+}
+.application-box-wrap {
+  display: flex;
+  border-radius: 0 0 10px 10px;
+}
+.appdesigner-application-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 0;
+  /* overflow-x: auto; */
+  white-space: nowrap;
+  /* overflow-y: auto; */
+  margin-left: 1.5vh;
+  margin-top: 15px;
+  min-height: 59vh;
+}
+.application-box-wrap .btn-edit {
+  background: rgba(216, 224, 232, 0.5);
+  color: #0d3c84;
+  /* padding-left: 20px;
+  padding-right: 20px; */
+  border-bottom-left-radius: 8px;
+  height: 40px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.primaryButton .edit-btn {
+  color: #e5e5e5;
+}
+.btn-close:hover,
+.btn-close {
+  fill: #fff !important;
+  opacity: 1 !important;
+}
+.appdesignerinput {
+  padding: 16px;
+}
+.appdesigneruploadimg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.appdesignerimagecurve {
+  border-radius: 5px;
+}
+.appdesignerellipse {
+  width: 100px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  text-align: center;
+}
+.appdesigneruploadedfile {
+  font-size: 12px;
+}
+.appdesignercolorscheme {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+  border-radius: 3px;
+  border: 1px solid rgb(229, 229, 229);
+}
+.appdesigner-application-item {
+  background: #fafafa;
+  box-shadow: 7.45455px 11.1818px 23.2955px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  width: 22%;
+  text-align: center;
+  padding-top: 3px;
+  margin: 20px 15px 15px 15px;
+  display: flex;
+  flex-direction: column;
+  min-width: 212px;
+  width: 265px;
+  margin-bottom: 3rem !important;
+  height: 243px;
+}
+.appdesigner-application-item a {
+  background: #0d3c84;
+  border-radius: 0 0 10px 10px;
+  display: block;
+  width: 100%;
+  letter-spacing: 0.559091px;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 16.7727px;
+  line-height: 22px;
+  text-decoration: none;
+  padding: 8px 0;
+  transition: all 0.5s;
+  margin-top: auto;
+  height: 40px;
+}
+.appdesigner-application-item a:hover {
+  background: #04265a;
+  transition: all 0.5s;
+}
+
+.appdesigner-application-item a:focus {
+  color: #ffffff;
+}
+.insidecard {
+  position: relative;
+  /* top:-65px; */
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.application-box-wrap a {
+  border-radius: 0;
+}
+.application-box-wrap a:hover {
+  color: #fff;
+}
+.application-box-wrap .btn-preview {
+  border-radius: 0 0 10px 0px;
+}
+.application-status-wrap {
+  display: flex;
+  align-items: center;
+  padding: 0 15px 10px 10px;
+  margin-left: 160px;
+}
+
+.application-status-wrap p {
+  margin: 0 auto 0 0;
+  display: flex;
+  color: #8a8a8a;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+}
+.application-box-info ul {
+  padding: 0;
+  list-style: none;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.appdesigner-excelstatusgif {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.appdesigner-exelstatus {
+  display: flex;
+  align-items: row;
+  justify-content: center;
+}
+.application-box-info ul li {
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.application-box-info ul li img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  vertical-align: baseline;
+}
+
+.application-box-info span {
+  color: #8a8a8a;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  display: block;
+  margin: 0px 0 10px;
+}
+
+.application-box-info h5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #0d3c84;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  margin: 0px 15px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.application-box-info h5 .cardName {
+  color: #0d3c84;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  margin-top: 0.3rem;
+  margin-bottom: 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.application-box-info h5 i {
+  width: 16px;
+  height: 16px;
+  display: block;
+  margin-right: 8px;
+}
+
+.application-box-info h5 i img {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+  object-position: center;
+  vertical-align: top;
+}
+
+.application-box-img {
+  /* box-shadow: 0px 12px 25px rgba(0, 0, 0, 0.25); */
+  border-radius: 15px;
+  width: fit-content;
+  height: 100px;
+  margin: -60px auto 5px;
+  max-width: 200px;
+  cursor: default;
+}
+.appdesignerimage {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  cursor: default !important;
+}
+.loaded {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.appdesignerappname {
+  color: #ff5711 !important;
+}
+.appdesigner-editapp-cancel {
+  display: flex;
+  padding: 0;
+  /* place-content: center; */
+}
+.appdesigner-deleteapp-cancel {
+  display: flex;
+  justify-content: space-evenly;
+}
+.application-box-info p span {
+  margin: 0;
+  height: 15px;
+  width: 15px;
+  margin-right: 5px;
+}
+.application-box-info span svg {
+  width: 100%;
+  height: 100%;
+  vertical-align: top;
+}
+.appdesigner-excelmodel {
+  padding: 0px;
+}
+.appdesignercreatecolorscheme {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(229, 229, 229);
+  padding: 6px;
+  border-radius: 3px;
+  height: 142px;
+  padding-top: 1rem;
+}
+.appdesignercreatecolorscheme h6 {
+  margin-bottom: 0;
+  padding-top: 0.5rem;
+  font-size: 12px;
+  line-height: 12px;
+  font-weight: 500;
+  letter-spacing: 0.25px;
+}
+
+.appdesignercreatecolorscheme p {
+  margin-bottom: 0;
+  font-size: 10px;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #3c3c3c;
+}
+.appdesignercreatecolorscheme span {
+  color: #0d3c84;
+}
+.appdesignercreatecolorscheme small {
+  color: #000;
+  font-size: 12px;
+}
+.application-title-wrap {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding-left: 1rem;
+  justify-content: space-between;
+
+  /*Css for sticky header application dashboard  */
+  position: sticky;
+  top: 0px;
+  width: 100%;
+  background: white;
+  z-index: 10;
+}
+
+.ListViewApplicationTitle {
+  display: flex;
+  align-items: center;
+  margin: 18px 0 5px;
+}
+
+.application-title-wrap h4 {
+  margin: 0 auto 0 0 !important;
+  /* margin-left: 35px !important; */
+}
+
+.ListViewApplicationTitle h4 {
+  margin: 0 auto 0 0 !important;
+}
+
+.application-title-wrap ul {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+.ListViewApplicationTitle ul {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.application-title-wrap ul li button {
+  color: #3c3c3c;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  text-decoration: none;
+  margin-left: 12px;
+}
+.ListViewApplicationTitle ul li button {
+  color: #3c3c3c;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  text-decoration: none;
+  margin-left: 12px;
+}
+.screenstext {
+  margin-left: 16px;
+  font-weight: bolder;
+}
+.dropdown {
+  margin-right: 20px;
+}
+
+.application-title-wrap ul li button svg {
+  font-size: 20px;
+  color: rgba(161, 181, 195, 1);
+  margin-right: 4px;
+  transform: rotate(180deg);
+}
+.ListViewApplicationTitle ul li button svg {
+  font-size: 20px;
+  color: rgba(161, 181, 195, 1);
+  margin-right: 4px;
+  transform: rotate(180deg);
+}
+
+.tag-item {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  display: block;
+  padding: 6px 16px;
+  border-radius: 4px;
+}
+
+.progress-tag {
+  background: rgba(255, 98, 126, 0.2);
+  /* border: 0.2px solid rgba(255, 10, 10, 0.4); */
+  color: #ff5711;
+  opacity: 1.5;
+  border: 0.2px;
+}
+.approval-tag {
+  color: #ff5711;
+  background: rgba(151, 53, 233, 0.2);
+  border: 0.2px solid rgba(255, 10, 10, 0.4);
+}
+.active-tag {
+  background: rgba(117, 204, 42, 0.2);
+  border: 0.2px solid rgba(255, 10, 10, 0.4);
+  color: #ff5711;
+}
+.application h4 {
+  letter-spacing: 0.02em;
+  color: rgba(60, 60, 60, 0.8);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  margin-bottom: 0;
+}
+
+.css-qc6sy-singleValue {
+  color: #ff5711;
+}
+.dropdown-title {
+  color: #000000;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  padding: 20px;
+  margin: 0;
+}
+
+.propertydetail {
+  list-style: none;
+  padding-top: 5px;
+  padding: 0px;
+}
+
+.propertydetail li {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.propertydetail li span {
+  width: 140px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  text-align: center;
+  color: rgba(60, 60, 60, 0.8);
+  min-width: 150px;
+}
+
+.propertydetail li p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #0d3c84;
+}
+
+table {
+  width: 100%;
+}
+
+table thead th {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  padding: 10px 10px;
+}
+
+table thead tr {
+  background: #0d3c84;
+  padding: 7px 21px !important;
+  height: 35px;
+}
+
+table thead {
+  background: #0d3c84;
+  border-radius: 4px;
+  padding: 7px 21px !important;
+}
+
+table tbody tr {
+  background: #fafafa;
+  border: 0.5px black;
+  height: 35px;
+  border-radius: 4px;
+}
+
+.versonhistroy h2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #fa5b3d;
+  position: relative;
+  padding-bottom: 15px;
+}
+
+.versonhistroy {
+  border-bottom: 1px solid #a9bbc9;
+  margin: 12px 0 24px;
+}
+
+.versonhistroy h2:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #ff5711;
+  border-radius: 2px;
+  width: 150px;
+  height: 5px;
+}
+.publishhistroy {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #8a8a8a;
+  position: relative;
+  padding-bottom: 12px;
+  padding-left: 10px;
+  border: none;
+  background-color: white;
+}
+
+table tbody tr td {
+  padding: 10px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 1px;
+  color: #3c3c3c;
+}
+.w-20 {
+  width: 20px;
+}
+
+.properties-modal .modal-dialog {
+  max-width: 700px;
+}
+
+.properties-modal .modal-header {
+  height: 45px;
+  border-top-left-radius: calc(0.6rem - 1px);
+  border-top-right-radius: calc(0.6rem - 1px);
+  margin-block-start: -2px;
+}
+.properties-modal .modal-header .modal-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+.properties-modal .modal-content {
+  border-radius: 0.78rem;
+}
+.properties-table {
+  margin-bottom: 40px;
+}
+/* .modal-body {
+  padding: 1.8rem;
+} */
+
+.sb-checkbox {
+  margin: 10px;
+}
+
+.sb-checkbox {
+  display: inline-block;
+  font-size: 0;
+}
+
+.sb-checkbox__input {
+  display: none;
+}
+
+.sb-checkbox__input:checked + .sb-checkbox__label:after {
+  opacity: 1;
+}
+
+.sb-checkbox__label {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  cursor: pointer;
+}
+
+.sb-checkbox__label:before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  border: 2px solid;
+  box-sizing: border-box;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 2px;
+}
+
+.sb-checkbox__label:after {
+  content: "✓";
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  width: 16px;
+  height: 16px;
+  display: block;
+  border-radius: 2px;
+  overflow: hidden;
+  text-align: center;
+  opacity: 0;
+  transition: 0.2s opacity;
+}
+
+.sb-checkbox__label--orange:before {
+  border-color: #0d3c84;
+}
+
+.sb-checkbox__label--orange:after {
+  background-color: #ffa726;
+  color: #fff;
+}
+
+label.pc {
+  position: relative;
+  top: 5px;
+}
+
+input.color {
+  background: #000000;
+  border-radius: 3px;
+  width: 16px;
+  height: 16px;
+  border: none;
+  margin-left: 0px;
+}
+
+.editapplication h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #0d3c84;
+}
+
+.editapplication {
+  margin-bottom: 16px;
+}
+
+.application {
+  /* margin-bottom: 13px; */
+}
+
+.application textarea {
+  width: 100%;
+  height: 70px;
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+  padding: 2px 10px;
+  resize: none;
+}
+.DescriptionLimit {
+  float: right;
+  font-size: 12px;
+}
+
+.applicationinfo {
+  padding-left: 10px;
+}
+
+.applicationinfo2 {
+  padding-left: 50px;
+}
+
+.colorscheme h5 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #3c3c3c;
+  margin-bottom: 5px;
+  margin-left: 96px;
+  margin-top: -7px;
+}
+
+.colorscheme2 h5 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 22px;
+  display: flex;
+  align-items: flex-start;
+  color: #3c3c3c;
+}
+.chooscolor h5 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #3c3c3c;
+  margin-bottom: 2px;
+}
+.DeviceSupport {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #3c3c3c;
+  margin-bottom: 2px;
+  margin-left: 62px;
+}
+.chooscolor2 h5 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #3c3c3c;
+  margin-bottom: 2px;
+  margin-left: 58px;
+  margin-top: 10px;
+}
+.uploadimage h5 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #3c3c3c;
+  margin-bottom: 2px;
+}
+.uploadimage2 h5 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #3c3c3c;
+  margin-bottom: 2px;
+  margin-left: 125px;
+}
+.color {
+  display: flex;
+  align-items: center;
+  margin-left: 83px;
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+  width: 272px;
+  height: 50px;
+  left: 291px;
+  top: 160px;
+  position: absolute;
+  top: 7px;
+  left: 42px;
+  visibility: hidden;
+}
+.color2 {
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+  box-sizing: border-box;
+  background: #ffffff;
+  border-radius: 3px;
+}
+.color p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.8);
+  margin-left: 6px;
+}
+
+input.file {
+  width: 30px;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.color p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 0.8);
+  margin-top: 11px;
+}
+
+/* .choosdevice .color {
+  margin-right: 11px;
+  margin-top: 10px !important;
+} */
+
+.chooscolor {
+  margin-bottom: 17px;
+  margin-left: 94px;
+}
+.uploadimage {
+  margin-bottom: 17px;
+  margin-left: 58px;
+}
+.choosdevice {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+  width: 65%;
+}
+.excelChooseDevice {
+  max-width: 35%;
+}
+.editchoosdevice {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: #ffffff;
+  border-radius: 3px;
+  width: 100%;
+  border: 1px solid #e5e5e5;
+}
+.uparrow {
+  display: flex;
+}
+.choosdevice2 {
+  display: flex;
+  align-items: center;
+  margin-left: 56px;
+  margin-top: -3px;
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+  width: 225px;
+  height: 50px;
+  left: 291px;
+  top: 160px;
+}
+
+.colorfile {
+  cursor: pointer;
+  position: relative;
+  border-radius: 4px;
+  margin-left: 0px;
+}
+.colorfile2 {
+  cursor: pointer;
+  position: relative;
+  border-radius: 4px;
+  margin-left: 44px;
+}
+.colorfile svg {
+  font-size: 35px;
+  color: #c4c4c4;
+  border: 2px solid #c4c4c4;
+  border-radius: 5px;
+  padding: 0px 3px;
+}
+
+.colorfile:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 30px;
+  height: 25px;
+  z-index: 0;
+}
+
+/* .color label {
+  margin-right: 7px;
+} */
+
+.btnscancel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+a.btncancel {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #000000;
+  width: 83px;
+  height: 23px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+a.btnorange {
+  background: #ff5711;
+  border-radius: 3px;
+  width: 79px;
+  height: 23px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #fafafa;
+  margin: 0px 16px;
+}
+
+.application span {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  /* color: rgba(60, 60, 60, 0.8); */
+  color: #3c3c3c;
+}
+
+.application input {
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  border-radius: 3px;
+  height: 28px;
+  font-size: 14px;
+  line-height: 32px;
+  color: #3c3c3c;
+  padding-left: 10px;
+}
+.application textarea:focus,
+.application input:focus {
+  box-shadow: none;
+  outline: none;
+}
+.savebtn {
+  background-color: #ff5711;
+  color: white;
+  margin-left: 50px !important;
+}
+.cancelbtn {
+  border: #0d3c84 1px solid;
+}
+
+/* .dropdown-menu {
+  width: 40px;
+} */
+.kebabMenu {
+  position: relative;
+}
+.kebabMenu svg {
+  position: absolute;
+  top: 8px;
+  right: -8px;
+  transform: rotate(180deg);
+  z-index: 5;
+}
+
+.appdesigner-application-item .kebabMenu a {
+  background: white;
+  color: black;
+  font-size: 14px;
+  padding: 2px 0px 5px 3px;
+  text-align: left;
+}
+
+.appdesigner-application-item .kebabMenu a:hover {
+  text-decoration: none;
+  transition: transform 0 ease;
+  background: #e5e5e5;
+
+  transform-origin: bottom right;
+}
+
+.appdesigner-application-item .kebabMenu a ::after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+.appdesigner-application-item .kebabMenu img {
+  width: 18px;
+  height: 18px;
+  padding-right: 4px;
+  padding-left: 2px;
+}
+.appdesigner-dropdownn.show {
+  width: 2px;
+
+  inset: 0px auto auto 0px !important;
+  position: absolute !important;
+  transform: translate3d(89.6px, 21.6px, 0px) !important;
+  border-radius: 8px;
+  inset: "0px auto auto 0px";
+}
+.appdesigner-application-item .kebabMenu a {
+  border-radius: 0px;
+  border: 0px;
+}
+
+.appstoreapp {
+  display: flex;
+  column-gap: -10px;
+  flex-direction: column;
+  height: 100%;
+}
+.createapp .modal-header {
+  margin-block-start: -2px;
+}
+
+.createapp .modal-dialog {
+  width: 720px;
+  max-width: 720px;
+}
+.createapp .modal-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  pointer-events: auto;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.78rem;
+  outline: 0;
+}
+
+.or {
+  width: 18px;
+  height: 22px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: rgba(60, 60, 60, 0.8);
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin-left: -62%;
+  margin-top: 2px;
+}
+
+.uploadExcel {
+  width: 100%;
+  background: #ffffff;
+  border: 1px dashed #e5e5e5;
+  border-radius: 3px;
+  background: #f5f5f5;
+}
+.uploadimg {
+  box-sizing: border-box;
+  width: 94px;
+  height: 28px;
+  left: 119px;
+  top: 23px;
+  background: #ffffff;
+  border: 1px dashed #e5e5e5;
+}
+.uploadimg2 {
+  box-sizing: border-box;
+  width: 94px;
+  height: 28px;
+  left: 119px;
+  top: 23px;
+  background: #ffffff;
+  border: 1px dashed #e5e5e5;
+  margin-left: 121px;
+}
+.upload {
+  font-style: normal;
+  font-weight: 550;
+  font-size: 12px;
+  line-height: 22px;
+  margin-left: 3px;
+  color: #ff5711;
+  cursor: pointer;
+}
+.span {
+  width: 195px;
+  height: 22px;
+  left: 160px;
+  top: 282px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 56px;
+  margin-left: 60px;
+  align-items: center;
+  text-align: center;
+  color: #3c3c3c;
+}
+.appdesigner-excel label {
+  text-decoration: none;
+  margin: 4px;
+  font-size: 12px;
+}
+.Browse {
+  font-size: 13px;
+  /* color: rgb(12, 131, 191); */
+  color: #0d3c84;
+  margin-left: 2px;
+  margin-top: 5px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.Browse1 {
+  font-size: 13px;
+  color: rgb(12, 131, 191);
+  margin-left: 13px;
+  cursor: pointer;
+}
+.Browse2 {
+  font-size: 13px;
+  color: rgb(12, 131, 191);
+  margin-left: 2px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.Browse3 {
+  font-size: 13px;
+  margin-left: 5px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.Browse:hover {
+  /* color: red; */
+}
+.back {
+  font-style: normal;
+  font-weight: 550;
+  font-size: 12px;
+  line-height: 22px;
+  margin-right: 5px;
+  color: #ff5711;
+  cursor: pointer;
+}
+.uploadpara {
+  width: 195px;
+  height: 22px;
+  left: 160px;
+  top: 282px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 22px;
+  /* identical to box height, or 275% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #3c3c3c;
+}
+.infocircle {
+  margin-left: 584px;
+  margin-bottom: -48px;
+}
+.cancelBtnAppDash {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 30px !important;
+  height: 36px;
+  width: 100px;
+  font-weight: 700;
+  color: #ff5711;
+}
+.cancelBtnAppDash:hover {
+  width: 100px;
+}
+.editAppUpdateBtn {
+  height: 36px;
+  width: 100px !important;
+}
+
+.excel {
+  height: 22px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #3c3c3c;
+  margin-top: 30px;
+  width: 100%;
+  justify-content: center;
+  place-content: center;
+}
+
+.backexcel {
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin-left: 32%;
+  left: 82px;
+  height: 22px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #3c3c3c;
+
+  margin-top: 25px;
+  width: 288px;
+}
+
+.ExcelIco {
+  width: 15px;
+  height: 15px;
+  /* margin-left: 335px; */
+  margin-top: -2px;
+}
+
+.arrowbutton {
+  margin: 0px !important;
+  padding: 0px !important;
+  margin-left: 10px !important;
+  background: none;
+  border-style: none;
+}
+.Excelinnercontainer {
+  position: relative;
+  width: auto !important;
+  height: auto !important;
+  background: #ffffff;
+  border-radius: 10px;
+}
+.ExcelpopupTop {
+  width: auto !important;
+  height: 45px;
+  background: #0d3c84;
+}
+
+.ExcelpopupBottom {
+  margin: 20px 25px !important;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ExcelpopupBottomLeft {
+  width: 266px;
+}
+
+.Appname {
+  margin-top: 2px;
+  width: 95px;
+  height: 22px;
+  left: 0px;
+  top: 68px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-left: 16px;
+  color: #3c3c3c;
+}
+.usingexcel {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  /* identical to box height, or 275% */
+
+  color: #3c3c3c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.appdesigner-excel {
+  font-weight: bold;
+}
+.appdesigner-template {
+  font-size: 10px;
+}
+.appdesigner-generate {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid rgb(229, 229, 229);
+  border-radius: 3px;
+  justify-content: space-around;
+  max-width: 68%;
+}
+.appdesigner-excelRowColumn {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid rgb(229, 229, 229);
+  border-radius: 3px;
+  justify-content: space-around;
+  max-width: 100%;
+}
+.Apptext {
+  box-sizing: border-box;
+  width: 221px;
+  height: 28px;
+  left: 0px;
+  top: 25px;
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+}
+.applicationdashboard-modal .modal-dialog {
+  max-width: 70vw;
+}
+/* .appdesigner-excelcheckbox {
+  width: 33%;
+} */
+
+.Download {
+  width: 140px;
+  height: 22px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: rgba(60, 60, 60, 0.8);
+  margin-left: 2px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.down {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-left: 17px;
+}
+
+.uploadtext {
+  box-sizing: border-box;
+  width: 221px;
+  height: 58px;
+  left: 4px;
+  top: 93px;
+  background: #ffffff;
+  border: 1px dashed #e5e5e5;
+}
+.leftarrow {
+  margin: 0px !important;
+  padding: 0px !important;
+  margin-left: -245px !important;
+  background: none;
+  border-style: none;
+}
+.sucessMessage {
+  color: green;
+}
+.errorMessage {
+  color: red;
+}
+
+/* .createNewAppModal .modal-dialog {
+  width: 650px;
+  max-width: 650px;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* width: 100vw; */
+  font-size: 14px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.circle {
+  width: 27px;
+  height: 26px;
+  line-height: 2px;
+  background-color: #e5e5e5;
+  color: white;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  cursor: pointer;
+  -moz-background-clip: padding-box;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+
+.stepWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.stepBlock .circleWrapper {
+  padding: 0px 58px;
+  position: relative;
+  z-index: 1;
+}
+.stepContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.selected .circle {
+  color: black;
+  background-color: white;
+  border-color: #e5e5e5;
+}
+
+.stepBlock:not(:last-child) > .circleWrapper::after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  background-color: #e5e5e5;
+  margin: auto;
+  z-index: -1;
+}
+
+.stepBlock:not(:last-child) > .circleWrapper::after {
+  height: 3px;
+}
+
+.stepBlock:not(:last-child).selected > .circleWrapper::after,
+.stepBlock:not(:last-child).selected
+  ~ .stepBlock:not(:last-child)
+  > .circleWrapper::after {
+  height: 2px;
+  opacity: 0.6;
+}
+.createNewAppModal .btn-close {
+  background: none;
+  /* url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='24' height='24'%3E%3Cpath fill='none' d='M0 0h24v24H0z'/%3E%3Cpath d='M12 10.586l4.95-4.95 1.414 1.414-4.95 4.95 4.95 4.95-1.414 1.414-4.95-4.95-4.95 4.95-1.414-1.414 4.95-4.95-4.95-4.95L7.05 5.636z' fill='rgba(255,255,255,1)'/%3E%3C/svg%3E")
+    center/1em auto no-repeat !important */
+
+  background-size: 24px !important;
+  color: white;
+}
+.createNewAppModal .btn-close:focus {
+  box-shadow: none !important;
+}
+.primaryButton {
+  padding: 10px 25px;
+  background-color: #ff5711;
+  border: none;
+  margin: 10px;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.primaryButton:disabled {
+  opacity: 0.5;
+}
+
+.setStepTextColor {
+  color: #e5e5e5;
+}
+
+.selectedTextColor {
+  color: #05b07b;
+}
+.appname {
+  color: #0d3c84;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.close {
+  width: 80px;
+  height: 80px;
+  margin: 40px;
+  /* stroke: red; */
+  fill: red;
+}
+.close:hover {
+  fill: green;
+  /* stroke: green; */
+}
+
+.open {
+  width: 80px;
+  height: 80px;
+  margin: 40px;
+  stroke: red;
+  /* fill: red; */
+}
+.open:hover {
+  /* fill: green; */
+  stroke: green;
+}
+
+.WebWeb {
+  /* color: red; */
+  /* background: red; */
+  /* background-color: green; */
+  stroke: blue;
+  fill: brown;
+  height: 40px;
+  width: 40px;
+}
+
+.formPreviewTaskLabelActive {
+  color: #fa5b3d;
+  font-size: 10px;
+}
+.formPreviewTaskLabelNotActive {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 10px;
+}
+
+.formPreviewDeviceIconActive {
+  color: #fa5b3d;
+  width: 35px;
+  height: 35px;
+  fill: red;
+}
+
+.formPreviewDeviceIconNotActive {
+  color: rgba(0, 0, 0, 0.7);
+  width: 35px;
+  height: 35px;
+  fill: green;
+  /* margin-left: -10px; */
+}
+
+.formPreviewInputRadioActive {
+  border: 2.3px solid #fa5b3d;
+}
+.formPreviewInputRadioNotActive {
+  border: 2.3px solid #000000;
+}
+.formPreviewDeviceweb1 {
+  margin-left: -67px;
+}
+.formPreviewDevicemob1 {
+  margin-left: 67px;
+}
+.formPreviewDevicemob2 {
+  margin-left: 75px;
+}
+.formPreviewDeviceweb2 {
+  margin-left: -73px;
+}
+.Gridcheckbox {
+  height: 17px;
+  width: 17px;
+}
+.Formcheckbox {
+  height: 17px;
+  width: 17px;
+}
+.createAppExcel-rowColumnInput {
+  height: 17px;
+  width: 30px;
+  font-size: 12px !important;
+}
+
+.createAppExcel-rowColumnInput::-webkit-inner-spin-button,
+.createAppExcel-rowColumnInput::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+.Form {
+  font-size: 12px;
+}
+.colors2 {
+  margin-top: 14px;
+  margin-left: 10px;
+}
+.checkbox {
+  box-sizing: border-box;
+  background: #ffffff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.OR2 {
+  display: flex;
+  margin-left: 190px;
+  margin-top: -36px;
+}
+.OR1 {
+  display: flex;
+  margin-left: 206px;
+  margin-top: -44px;
+}
+.mobcom {
+  margin-left: 1px;
+}
+.createNewAppModal .modal-dialog {
+  width: 80vw;
+  max-width: 737px;
+}
+
+.choose-colors {
+  font-size: 13px;
+  margin-left: 5px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.form-subheading {
+  font-size: 12px;
+  color: #3c3c3c;
+  line-height: 22px;
+  font-weight: 600;
+}
+.form-subheadingcolor {
+  margin-left: 6px;
+  font-size: 12px;
+  color: #3c3c3c;
+}
+.excel-upload-input::-webkit-file-upload-button {
+  /* visibility: hidden; */
+  display: none;
+  text-align: center;
+}
+
+.excel-upload-input {
+  /* background-color: red; */
+  width: 20%;
+  margin-left: 40px;
+}
+
+.appdesigner-application-container .create-new-wrapper {
+  margin-top: 1.5rem !important;
+  width: calc(96vw - 235px);
+}
+
+.create-new-title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-top: 1.7rem;
+  letter-spacing: 0.02em;
+  font-style: normal;
+  color: rgba(60, 60, 60, 0.8);
+}
+.create-app-wrapper {
+  display: flex;
+  overflow-x: auto;
+  padding-bottom: 10px;
+}
+.create-app-box-not-allowed {
+  box-sizing: border-box;
+  width: 328px;
+  height: 100px;
+  border: 1px solid #acacac;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  cursor: no-drop;
+}
+.create-app-box {
+  box-sizing: border-box;
+  width: 328px;
+  height: 100px;
+  border: 1px solid #acacac;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  cursor: pointer;
+  /* flex-wrap: wrap; */
+  /* justify-content: center; */
+}
+
+.create-app-icon {
+  margin: 12px;
+}
+
+.create-app-scratch {
+  margin: 15px;
+  min-width: 192px;
+}
+
+.create-app-title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.6px;
+  color: #0d3c84;
+}
+
+.exceedWarning {
+  color: red;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 1px;
+}
+
+.create-app-subtitle {
+  font-size: 10px;
+  line-height: 22px;
+  letter-spacing: 2px;
+  color: #0d3c84;
+  margin-bottom: 0px;
+}
+.appdesignerinput::placeholder {
+  font-size: 10px;
+}
+.descTextArea::placeholder {
+  font-size: 10px;
+  padding-top: 5px;
+}
+.excelCreateAppDesc::placeholder {
+  font-size: 10px;
+  padding-top: 5px;
+}
+.createNewAppModal .modal-content {
+  border-radius: 0.78rem;
+}
+.removeUploadeImage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  /* padding: .5rem; */
+  margin-top: 0.5rem;
+  font-size: 12px;
+  letter-spacing: 0.25px;
+  margin-left: 0.5rem;
+}
+.uploadedExcel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 4rem;
+  padding-left: 1rem;
+}
+
+.uploadedExcel span {
+  letter-spacing: 0.5px;
+  color: #0d3c84;
+  font-weight: 500;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.uploadedExcelTitle {
+  margin: 0;
+  /* position: relative;
+  right: 12rem; */
+  display: block;
+}
+.uploadedExcelIcon {
+  /* margin: 1rem;
+  margin-left: 0; */
+  margin: 0 1rem 1rem 0;
+}
+.tempIsidieCard {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.template-application-item {
+  background: #fafafa;
+  box-shadow: 7.45455px 11.1818px 23.2955px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  width: 22%;
+  text-align: center;
+  padding-top: 3px;
+  margin: 20px 15px 15px 15px;
+  display: flex;
+  flex-direction: column;
+  min-width: 212px;
+  width: 265px;
+  margin-bottom: 3rem !important;
+  height: 258px;
+  justify-content: flex-end;
+}
+.template-box-wrap a {
+  display: flex;
+  width: 100%;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 16.7727px;
+  line-height: 22px;
+  text-decoration: none;
+}
+.template-box-wrap {
+  width: 100%;
+  background: rgba(60, 60, 60, 0.5);
+  border-radius: 0 0 10px 10px;
+  display: flex;
+  letter-spacing: 0.559091px;
+  padding: 0.5rem 0.5rem;
+  transition: all 0.5s;
+  margin-top: auto;
+  height: 40px;
+}
+.template-box-wrap img {
+  /* padding-bottom: 5px;
+
+  padding-right: .5rem; */
+  margin: 0px 0.7rem 3px;
+}
+.yourAppTab {
+  /* color: black !important; */
+  letter-spacing: 1.25px;
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 700;
+  /* background: #fbfbfb; */
+}
+.yourAppsLabel {
+  height: 45px;
+}
+.template-application-item {
+  background: url("../../assets/logo/templateImage.jpg");
+  background-repeat: no-repeat;
+  background-size: 101% 100%;
+}
+.nav-pills .propertiesPopup.active {
+  /* background-color: #fbfbfb !important; */
+}
+/* .nav-pills .propertiesPopup h4 .active {
+  font-weight: 400;
+} */
+#pillApps li.active > h4 {
+  font-weight: 400;
+}
+
+.application-card-status {
+  position: relative;
+  bottom: 152px;
+  right: 175px;
+}
+
+.application-box-info {
+  height: 70px;
+}
+
+.uploadedExcelSize {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  color: #bababa;
+}
+
+.editAppUpdateImage h6 {
+  margin-bottom: 0;
+  padding-top: 0.5rem;
+  font-family: "Lato";
+  font-size: 12px;
+  line-height: 12px;
+  font-weight: 500;
+  letter-spacing: 0.25px;
+}
+
+.editAppUpdateImage span {
+  color: #0d3c84;
+}
+
+.editAppUpdateImage p {
+  margin-bottom: 0;
+  font-family: "Lato";
+  font-size: 10px;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #3c3c3c;
+}
+.uploadedExcelSize {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  color: #bababa;
+}
+.template-download-link {
+  text-decoration: none;
+}

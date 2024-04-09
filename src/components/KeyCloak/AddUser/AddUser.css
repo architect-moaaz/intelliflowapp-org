@@ -1,0 +1,191 @@
+.add_role_width {
+  max-width: 820px;
+  margin: 0 auto;
+}
+
+.adduser_input {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.adduser_input label {
+  display: block;
+  color: #171717 !important;
+  margin-bottom: 4px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+}
+
+.adduser_input input,
+.adduser_input .select-option {
+  width: 100%;
+  border: 1px solid #adadad;
+  border-radius: 4px;
+  background: #fff;
+  height: 40px;
+  padding: 0 10px;
+}
+
+.adduser_input input:focus,
+.adduser_input .select-option:focus {
+  outline: none;
+}
+.adduser-savebutton {
+  display: flex;
+  align-items: center;
+}
+.add_role_width .role_form_btn a {
+  margin: 0 0 0 10px;
+}
+.toggle_switch_wrap h6 svg {
+  margin-left: 6px !important;
+  color: rgba(0, 0, 0, 0.5) !important;
+  font-size: 16px !important;
+}
+
+.toggle_switch_wrap {
+  display: flex !important;
+  align-items: center !important;
+  margin-bottom: 21px !important;
+}
+
+.switch.btn-sm {
+  border-radius: 4rem !important;
+  border: none !important;
+  background: #c4c4c4 !important;
+  width: 60px !important;
+}
+
+.switch-on.btn-sm {
+  background: #ff5711 !important;
+  border: none !important;
+  font-size: 0 !important;
+  right: 0 !important;
+}
+.addusercurrentpassword {
+  width: 100%;
+  height: 40px;
+  box-sizing: border-box;
+  /* margin-left: -30px; */
+  border: 1px solid #adadad;
+  border-radius: 6px;
+}
+.user-savelink {
+  text-decoration: none;
+}
+
+.switch-handle {
+  background: #000 !important;
+  background: #ffffff !important;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.22) !important;
+  right: 0 !important;
+  position: absolute !important;
+  padding: 0 !important;
+  width: 30px !important;
+  height: 30px !important;
+  border-radius: 100% !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+}
+
+.switch-group {
+  width: 100% !important;
+}
+
+.switch-off {
+  font-size: 0 !important;
+}
+
+span.switch-off.btn.btn-light.btn-sm {
+  background: #ff5711 !important;
+}
+
+.off .switch-handle {
+  left: 60px !important;
+  z-index: 9 !important;
+}
+
+.react-select-adduser__control {
+  border: 1px solid #adadad !important;
+  border-radius: 4px !important;
+  height: 40px;
+  margin-top: 5px;
+}
+
+.addusercurrentpasssword-adduser {
+  width: 100%;
+  height: 81px;
+  display: block;
+  color: #171717 !important;
+  margin-bottom: 4px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+  margin-top: 5px;
+}
+
+.primaryButton-adduser:disabled {
+  opacity: 0.5;
+}
+
+.primaryButton-adduser {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+  color: #ffffff;
+  background: #ff5711;
+  border: 0.5px solid #ff8872;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  width: auto;
+  margin-left: 15px !important;
+}
+.primaryButton-adduser:hover {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+  color: #ffffff;
+  background: #e65010;
+  border: 0.5px solid #e65010;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  width: auto;
+}
+
+.secondaryButton-adduser {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+  color: #ff8872;
+  background: #ffffff;
+  border: 0.5px solid #ff8872;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  width: auto;
+  margin-left: 30px;
+}
+
+.secondaryButton-adduser:hover {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+  color: #e65010;
+  background: #fff3ee;
+  border: 0.5px solid #e65010;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  width: auto;
+}
+
+.react-select-adduser__input-container {
+  height: 35px !important ;
+  margin: 0px !important ;
+  padding: 0px !important ;
+}

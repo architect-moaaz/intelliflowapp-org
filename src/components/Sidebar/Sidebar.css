@@ -1,0 +1,74 @@
+.sidebar-main-app {
+  max-width: 260px;
+  width: 260px;
+  margin-left: auto;
+  padding: 0 20px;
+  position: relative;
+}
+.sidebar-main-list {
+  max-width: 260px;
+  width: 260px;
+  margin-left: auto;
+  padding: 0 20px;
+  position: relative;
+  /* top: 20px; */
+  margin-top: -21px;
+}
+
+.sidebar-bg {
+  border-radius: 10px;
+  /* padding: 1rem; */
+  margin-top: 75px;
+  width: 235px;
+}
+
+.RenderFormContainerAppSidebar .app-todo-main {
+  height: 87vh;
+}
+.todo-bg .mt-3 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 50%; */
+}
+.app-todo-main {
+  height: 100vh;
+}
+
+.list-todo-main {
+  /* top: 20px; */
+  height: 88vh;
+}
+.Listsidebar {
+  background-color: #fff;
+  border-radius: 10px;
+  /* padding: 1rem; */
+}
+
+/* @media (max-width: 991px) {
+  .sidebar-main {
+    width: 300px;
+    order: -1;
+    margin: 0;
+    max-width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .sidebar-bg {
+    display: flex;
+    margin: 0 -10px;
+  }
+}
+
+@media (max-width: 575px) {
+  .sidebar-main {
+    padding: 0 15px;
+  }
+
+  .sidebar-bg {
+    padding: 0.6rem;
+    flex-wrap: wrap;
+  }
+} */

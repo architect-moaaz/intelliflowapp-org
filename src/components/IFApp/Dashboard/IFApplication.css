@@ -1,0 +1,35 @@
+.list-grid-content {
+  width: calc((100vw - 130px) - 260px);
+}
+
+.ListGridContainer {
+  display: flex;
+  justify-content: flex-end;
+}
+.IFApplication-breadCrum h6 {
+  color: #0c83bf;
+  letter-spacing: 1px;
+}
+.IFApplication-main-body {
+  width: 130px;
+}
+.IFApplication-subHeader {
+  position: absolute;
+  left: 154px;
+  top: 8px;
+}
+.IFApplication-nav-link{
+    margin-left: 15px;
+}
+.IFApplication-your-application {
+    margin-left: 1.5vw;
+    margin-top: 45px;
+}
+.IFApplication-application-title-wrap {
+    align-items: center;
+    display: flex;
+    margin: 18px 0 10px;
+}
+.ListView-Sidebar{
+    width: 260px;
+}

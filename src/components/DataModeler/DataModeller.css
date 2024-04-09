@@ -1,0 +1,512 @@
+.App {
+  text-align: center;
+}
+/* html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+} */
+/* .height100 {
+  height: 100%;
+} */
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.VerticalAndHorizontalCenter {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.dataModellerForm {
+  width: calc(100% - 45px);
+  margin: 30px 0px;
+  padding: 0px 200px;
+}
+
+.dataModellerFormContainer {
+  /* col-12 d-flex*/
+  display: flex;
+  width: 100%;
+}
+
+span.contentEditable-datamodeller:focus-visible {
+  /* border: none; */
+  outline: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .DataModellerHeader {
+    height: 40px;
+    border: 1px solid #e5e5e5;
+    box-sizing: border-box;
+    border-radius: 3px;
+    background: #0d3c84;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    padding-left: 2%;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    /* col-5 */
+    flex: 0 0 auto;
+    width: 35%;
+  }
+
+
+    @media (prefers-reduced-motion: no-preference) {
+      .DataModellerHeader-mandatory {
+        height: 40px;
+        border: 1px solid #e5e5e5;
+        box-sizing: border-box;
+        border-radius: 3px;
+        background: #0d3c84;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 19px;
+        letter-spacing: 0.02em;
+        color: #ffffff;
+        padding-left: 2%;
+        margin-bottom: 0px;
+        display: flex;
+        align-items: center;
+        position: relative;
+        /* col-5 */
+        flex: 0 0 auto;
+        width: 16%
+      }
+  }
+
+  .EntityContainer {
+    height: 42px;
+  }
+
+  .Entity {
+    border: 1px solid #e5e5e5;
+    box-sizing: border-box;
+    border-radius: 3px;
+    width: 100%;
+    height: 42px;
+    color: #0d3c84;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    /* margin-left: 5%; */
+    padding-left: 5%;
+  }
+  .FieldtypeContainer {
+    height: 42px;
+  }
+
+  .datamodellerFieldtype {
+    height: 40px;
+    width: 100%;
+    /* margin-left: 5%; */
+    /* border: 1px solid #e5e5e5; */
+    box-sizing: border-box;
+    border-radius: 3px;
+    font-style: normal;
+    color: #0d3c84;
+    font-size: 17px;
+    margin-bottom: 0px !important;
+  }
+  .datamodellerFieldtype .css-1s2u09g-control {
+    background: #ffffff !important;
+    border-color: #ffffff !important;
+    box-shadow: none !important;
+  }
+
+  .datamodellerFieldtype .css-13cymwt-control {
+    border: 0px !important;
+  }
+  .map1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    width: 100%;
+    height: 42px;
+    border: 1px solid #e5e5e5;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    padding-left: 5%;
+    align-items: center;
+  }
+
+  .contentEditable-datamodeller {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .map2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    width: 100%;
+    height: 42px;
+
+    top: 179px;
+    color: rgba(0, 0, 0, 0.47);
+    border: 1px solid #e5e5e5;
+    box-sizing: border-box;
+    padding-left: 2%;
+    display: flex;
+    align-items: center;
+  }
+
+  .filter {
+    width: 50px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .plus {
+    width: 40px;
+    height: 40px;
+    background: #0d3c84;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* col-2 */
+  }
+  .deleteIconHeader {
+    /* width: 50px; */
+    height: 40px;
+    background: #0d3c84;
+    color: #ffffff;
+    border-radius: 3px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #e5e5e5;
+    border-right: 0px;
+    /* col-2 */
+    flex: 0 0 auto;
+    width: 13%;
+  }
+
+  .deleteAllDm {
+    fill: white;
+    cursor: pointer;
+  }
+
+  .submit {
+    margin-top: 3%;
+    margin-left: 33%;
+    width: 25%;
+  }
+  .filtertype {
+    font-style: normal;
+    border: 1px solid #e5e5e5;
+    box-sizing: border-box;
+    border-radius: 3px;
+    margin-top: 0.5%;
+    margin-bottom: 0.5% !important;
+  }
+  .render {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: rgba(0, 0, 0, 0.47);
+    display: flex;
+    align-items: center;
+    width: inherit;
+  }
+
+  .render img {
+    width: 14px;
+    height: 14px;
+  }
+
+  /* .css-319lph-ValueContainer {
+    margin-left: 24px;
+  } */
+
+  .Deletebutton {
+    background-color: white;
+    border: 1px solid #e5e5e5;
+    /* border: none; */
+    width: 100%;
+    height: 42px;
+  }
+
+  .mandatory-div{
+    background-color: white;
+    border: 1px solid #e5e5e5;
+    width: 100%;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+  }
+  .mandatory-checkbox{
+    width: 10%;
+    padding: 5px;
+  }
+
+  .DataModellerContent {
+    max-height: 58vh;
+    overflow-y: scroll;
+    margin: 0px -7px 0px 0px;
+  }
+
+  .datacomment {
+    width: 84px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #0d3c84;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .datacommenttext {
+    margin-top: 10px;
+  }
+  .datacommentbox {
+    box-sizing: border-box;
+    width: 470px;
+    height: 92px;
+    left: 0px;
+    top: 27px;
+
+    border: 1px solid #0d3c84;
+    border-radius: 6px;
+    margin-top: -11px;
+  }
+  .canceldatasecondaryButton {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    color: #ff8872;
+    background: #ffffff;
+    border: 0.5px solid #ff8872;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    width: auto;
+    margin-left: -6px !important;
+  }
+
+  .deletedataprimaryButton {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    color: #ffffff;
+    background: #ff5711;
+    border: 0.5px solid #ff8872;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    width: auto;
+    margin-left: -25px !important;
+  }
+  .deletedata {
+    left: 16.02%;
+    right: 16.28%;
+    top: 40.1%;
+    bottom: 48.73%;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 122% */
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.01em;
+
+    /* Neutral Color/Neutral - 60% */
+    margin-top: 10px;
+    color: #8a8a8a;
+  }
+  .deletelongdata {
+    margin-left: 65px;
+
+    left: 16.02%;
+    right: 16.28%;
+    top: 40.1%;
+    bottom: 48.73%;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 122% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.01em;
+
+    /* Neutral Color/Neutral - 60% */
+    color: #8a8a8a;
+  }
+
+  .deletedatamodel-modal .modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 387px;
+    color: var(--bs-modal-color);
+    pointer-events: auto;
+    background-color: var(--bs-modal-bg);
+    background-clip: padding-box;
+    border: var(--bs-modal-border-width) solid var(--bs-modal-border-color);
+    border-radius: var(--bs-modal-border-radius);
+    outline: 0;
+    height: auto;
+    border-radius: 10px;
+    background-color: white;
+    margin-left: 80px;
+  }
+
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+}
+
+/* Global Css */
+
+.dataModeller {
+  width: 100%;
+  height: calc(100vh - 114px);
+  display: block;
+  flex-direction: column;
+  background: rgb(255, 255, 255);
+  position: relative;
+}
+.dataModeller-filter {
+  width: 50px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.DataModellerContent-Data {
+  /* col-md-12 d-flex */
+  display: flex;
+  width: 100%;
+}
+
+.DataModellerContent-Data-row {
+  /* col-5 */
+  flex: 0 0 auto;
+  width: 35%;
+}
+.DataModellerContent-Data-row-mandatory{
+  flex: 0 0 auto;
+  width: 16%;
+  background-color: white;
+    border: 1px solid #e5e5e5;
+    display: flex;
+    align-items: center;
+}
+
+.DataModellerContent-Data-row-delete {
+  /* col-2 */
+  flex: 0 0 auto;
+  width: 13%;
+}
+
+
+.DataModellerplus {
+  width: 40px;
+  height: 40px;
+  background: #0d3c84;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.appdesigner-footer-start {
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
+  justify-content: space-between !important;
+  display: flex !important;
+}
+
+.Datamodeller-zoom-view-device {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  /* col-md-2 */
+  flex: 0 0 auto;
+  width: 16.66666667%;
+}
+
+.appdesigner-footer-zoom-view-prop {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: center;
+  background: #d9d9d9;
+  border-radius: 5px;
+  /* col-md-3 px-5 */
+  flex: 0 0 auto;
+  width: 25%;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.appdesigner-footer-right-logo {
+  display: flex;
+  flex-direction: row;
+  place-content: end;
+  place-items: center;
+
+  /* col-md-2 */
+  flex: 0 0 auto;
+  width: 16.66666667%;
+}
+
+.react-select-datamodel__menu-list::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.react-select-datamodel__menu-list::-webkit-scrollbar {
+  width: 7px !important;
+  height: 7px !important;
+  background-color: #d9d9d9;
+  position: fixed !important;
+}
+
+.react-select-datamodel__menu-list::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #d9d9d9;
+}
+.react-select-datamodel__option--is-selected {
+  background: #0d3c84 !important;
+}

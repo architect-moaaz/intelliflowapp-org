@@ -1,0 +1,184 @@
+.appStore-your-application {
+  margin-left: 1.5vw;
+}
+
+.appStore-application-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 0;
+  overflow-x: auto;
+  white-space: nowrap;
+  overflow-y: auto;
+  margin-left: 1.5vh;
+  margin-top: 15px;
+  height: 80vh;
+}
+.custom-dropdown {
+  background-color: #e9ecef; /* Set your desired background color for the selected option */
+  color: #333; /* Set your desired text color for the selected option */
+}
+
+.custom-dropdown select option.active {
+  background-color: #007bff; /* Background color for active (selected) option */
+  color: #fff; /* Text color for active (selected) option */
+}
+.appStore-application-item {
+  min-width: 212px;
+  width: 265px;
+  background: #fafafa;
+  box-shadow: 7.45455px 11.1818px 23.2955px rgb(0 0 0 / 25%);
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+  height: 243px;
+  padding-top: 0px;
+}
+.appStore-application-item a {
+  background: #0d3c84;
+  border-radius: 0 0 10px 10px;
+  display: block;
+  width: 100%;
+  letter-spacing: 0.559091px;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 16.7727px;
+  line-height: 22px;
+  text-decoration: none;
+  padding: 8px 0;
+  transition: all 0.5s;
+  margin-top: auto;
+}
+.appStore-application-box-wrap {
+  border-radius: 0 0 10px 10px;
+  display: flex;
+}
+.appStore-application-box-wrap .btn-edit {
+  background: rgba(216, 224, 232, 0.5);
+  border-bottom-left-radius: 8px;
+  color: #0d3c84;
+  height: 40px;
+  overflow: hidden;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.appStore-application-box-wrap a {
+  border-radius: 0;
+}
+.appStore-application-title-wrap {
+  display: flex;
+  align-items: center;
+  margin: 18px 0 10px;
+}
+.appStore-application-title-wrap h4 {
+  margin: 0 auto 0 0 !important;
+}
+.appStore-application-title-wrap ul {
+  align-items: center;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.appStore-application-title-wrap ul li button svg {
+  color: #a1b5c3;
+  font-size: 20px;
+  margin-right: 4px;
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.appStore-application-title-wrap ul li button {
+  color: #3c3c3c;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  margin-left: 12px;
+  text-decoration: none;
+}
+.appStore-application-box-wrap a:hover {
+  color: #fff;
+  background-color: #0d3c84;
+  transform: all 0.5s;
+}
+.appStore-application-mains {
+  margin-top: 80px;
+  padding: 0;
+  width: 100%;
+}
+.appStore-application-item .appstoreapp img {
+  width: 100%;
+  height: 203px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.rolebased_pills {
+  /* border-bottom: 1px solid #a9bbc9; */
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  align-items: center;
+}
+
+.rolebased_pills .switchRole {
+  width: auto;
+  padding: 0px;
+  background: transparent !important;
+  letter-spacing: 0.2px;
+  color: #8a8a8a;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  cursor: pointer;
+  border-radius: 0;
+  margin-right: 20px;
+}
+
+.rolebased_pills.nav-pills .switchRole.active,
+.rolebased_pills.nav-pills .show > .switchRole {
+  color: #ff5711;
+  box-shadow: 0px 1px #ff5711, inset 0px -1px #ff5711;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+}
+.switchRole-dropdown-title {
+  font-size: 11px;
+  color: rgba(60, 60, 60, 0.5);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 12px;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.assignRole-user {
+  font-size: 14px;
+}
+
+.ifDashboard-sorting-assignRole {
+  border-bottom: 1px solid black;
+}
+
+.assignRole-des {
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 3px;
+  padding: 14px;
+  background: rgba(196, 205, 213, 0.4);
+  border-radius: 9px;
+}
+
+.assignRole-info > p {
+  font-size: 13px;
+  line-height: 14px;
+}
+
+.assignRole-i {
+  margin-bottom: 8px;
+}

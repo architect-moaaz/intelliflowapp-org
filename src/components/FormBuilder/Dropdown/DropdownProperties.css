@@ -1,0 +1,8 @@
+.use-data-model-wrap{
+    display: flex !important;
+    flex-direction: row;
+}
+.use-data-model-input{
+    height: 15px;
+    width: 15px;
+}

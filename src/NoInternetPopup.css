@@ -1,0 +1,68 @@
+.noInternet-modal .modal-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  color: var(--bs-modal-color);
+  pointer-events: auto;
+  background-color: var(--bs-modal-bg);
+  background-clip: padding-box;
+  border: var(--bs-modal-border-width) solid var(--bs-modal-border-color);
+  border-radius: var(--bs-modal-border-radius);
+  outline: 0;
+  height: auto;
+  border-radius: 10px;
+  background-color: white;
+  width: 620px;
+  height: 250px;
+}
+
+.noInternet-content {
+  text-align: center;
+}
+
+.noInternet-content .message {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 20px;
+  color: #f44336;
+}
+.noInternet-content .alert-icon {
+  height: 50px;
+  width: 50px;
+  text-align: center;
+}
+.noInternet-content .messageSecond {
+  text-align: center;
+  font-size: 20px;
+}
+
+.alert-icon {
+  width: 80px;
+  height: 80px;
+  position: relative;
+}
+
+.exclamation-shape {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.exclamation-shape::before {
+  content: "!";
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.alert-icon-data{
+  margin-left: 45%;
+}

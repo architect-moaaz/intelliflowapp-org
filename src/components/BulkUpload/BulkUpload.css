@@ -1,0 +1,208 @@
+.BulkButton {
+  display: flex;
+}
+
+.uploadExceldiv {
+  background: #f5f5f5;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.uploadExceltext {
+  /* width: 240px; */
+  height: 44px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 22px;
+  align-items: center;
+  text-align: center;
+
+  /* Primary Color/Primary 1 - Main 100% */
+
+  color: #0d3c84;
+}
+.bulkupload {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 22px;
+  text-align: center;
+  color: #fc5353 !important;
+  cursor: pointer;
+}
+
+/* .primaryButton-bulkupload {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+  color: #ffffff;
+  background: #ff5711;
+  border: 0.5px solid #ff8872;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  width: auto;
+  margin-left: 25px !important;
+} */
+.primaryButton-bulkupload {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+  color: #ffffff;
+  background: #ff5711;
+  border: 0.5px solid #ff8872;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  width: auto;
+  margin-left: 30px !important;
+}
+
+/* .primaryButton:hover {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+  color: #ffffff;
+  background: #e65010;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  width: auto;
+} */
+
+.bulkpreview {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.bulkupload-Delete {
+  height: 44px;
+  left: 904px;
+  top: 261px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fc5353;
+  margin-top: -32px;
+  margin-left: 235px;
+
+  /* font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+ 
+
+  text-align: center;
+  letter-spacing: 0.02em;
+  margin-top: -33px;
+  margin-left: 140px;
+  color: #ff5711; */
+}
+.bulk-upload-input {
+  margin-left: 100px;
+
+  display: flex;
+  flex-direction: row;
+  margin-top: -12px;
+}
+.bulk-upload-input::-webkit-file-upload-button {
+  /* visibility: hidden; */
+  display: none;
+  text-align: center;
+}
+
+.bulkuploadedExcelSize {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  color: #bababa;
+  margin-left: 20px;
+  margin-bottom: 0px;
+}
+
+.bulkuploadedExcelTitle {
+  margin: 0;
+  max-width: 212px;
+  display: block;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.BulkPreviewPopUp {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  /* display: flex; */
+  align-items: center;
+  text-align: center;
+  /* margin-left: 63px; */
+  color: #0d3c84;
+}
+
+.BulkPreviewPopUpp1 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  /* display: flex; */
+  align-items: center;
+  text-align: center;
+  color: #0d3c84;
+  margin-left: 53px;
+}
+.BulkPreviewPopUpp2 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  /* display: flex; */
+  align-items: center;
+  text-align: center;
+  color: #0d3c84;
+  margin-left: 53px;
+}
+
+.nav-pills .bulkuploadpropertiesPopup {
+  background-color: none !important;
+  color: #8a8a8a !important;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  margin-left: 40px !important;
+}
+
+.nav-pills .bulkuploadpropertiesPopup.active {
+  background-color: #ffffff00 !important;
+  color: #ff5711 !important;
+  border-bottom: 3px solid #ff5711 !important;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.bulkpreviewHeader {
+  display: flex;
+}
+
+.create-bulkuploadreport-section {
+  border-radius: 4px;
+  background: rgba(229, 229, 229, 0.5);
+}
+.templatesec {
+  margin-top: -13px;
+}
+
+.secondaryButton:disabled {
+  opacity: 0.5;
+}

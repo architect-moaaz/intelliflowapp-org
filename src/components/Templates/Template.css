@@ -1,0 +1,142 @@
+.template-main-content {
+  margin-top: 6.5rem;
+}
+
+.template-main-cotainer {
+  margin: 0;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.box {
+  height: 3.8rem;
+  width: 3.8rem;
+  border-radius: 10px;
+  padding: 0px;
+}
+
+.go-back-container {
+  height: 1.2rem;
+  width: 6rem;
+  margin-bottom: 0.5rem !important;
+}
+
+.go-back-container a {
+  text-decoration: none;
+  color: #000;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+.go-back-container img {
+  margin-right: 0.3rem;
+}
+.template-asset-container {
+  margin-top: 1rem !important;
+}
+.template-details-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.template-details-wrapper h3 {
+  width: auto;
+  margin: 0;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: rgba(60, 60, 60, 0.8);
+}
+.template-title {
+  display: flex;
+  flex-grow: 3;
+  width: auto;
+}
+
+.template-info-container {
+  /* width: 50%; */
+}
+.template-asset-label {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  /* padding: 0;
+  padding-bottom: 0.7rem;
+  margin: .5rem; */
+}
+.create-app-template-btn {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  background: #ff5711;
+  border: 0.5px solid #ff8872;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+  height: 33px;
+  width: 230px;
+}
+.create-app-template-btn:disabled{
+  cursor: not-allowed;
+}
+.create-app-template-btn:hover {
+  color: #ffffff;
+  background: #e65010;
+  border: 0.5px solid #e65010;
+  width: 230px;
+}
+.confirm-checkedIcon {
+  text-align: center;
+  margin-top: 10px;
+}
+.confirmation-modal .modal-content {
+  height: 185px;
+  width: 475px;
+  border-radius: 10px;
+}
+.confirm-bottom {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: rgba(60, 60, 60, 0.8) !important;
+}
+
+.template-create-app-btn {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+}
+
+.templateAppLogo {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.template-info-container .TemplateRowBody {
+  display: flex !important;
+}
+
+.TemplateRowBodyLeft {
+  padding-right: 50px;
+}

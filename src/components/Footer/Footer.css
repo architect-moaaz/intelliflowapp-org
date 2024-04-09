@@ -1,0 +1,22 @@
+.footer-wrap {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #fff;
+    z-index: 99;
+    padding: 0px 20px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 2.37149px 2.37149px rgba(0, 0, 0, 0.25);
+}
+/* @media (max-width: 991px) {
+    .footer-wrap{
+        padding:0px
+    }
+} */
+
+.footer-wrap link{
+    /* position: absolute; */
+    left: 50%;
+}

@@ -1,0 +1,575 @@
+.MainReportBuilder {
+  display: flex;
+  height: 100vh;
+}
+.MainReportbuilderview {
+  /* display: flex; */
+}
+.main-content-admin {
+  height: 100vh;
+  overflow: auto;
+}
+.containReport {
+  width: 95%;
+  margin-left: 2rem;
+}
+.main-content-admin .adminDashMainContent {
+  margin-top: 5.5rem !important;
+}
+.ReportBuilderView-mains {
+  flex-grow: 0.9;
+}
+.ReportBuilderHistory-mains {
+  /* flex-grow: 0.26; */
+  background-color: red;
+}
+.Report-mains {
+  flex-grow: 0.9;
+}
+.RBtable {
+  box-shadow: 4px 4px 4px rgb(0 0 0 / 25%);
+}
+.pannel {
+  display: flex;
+  margin-top: 140px;
+  margin-left: 60px;
+  box-sizing: border-box;
+  /* background: #e2e0e0; */
+  border: 0.5px solid rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  height: 18rem;
+  width: 18rem;
+  flex-direction: column-reverse;
+  justify-content: normal;
+  align-items: center;
+}
+.Linkdeco {
+  text-decoration: none;
+  color: #000000;
+}
+
+.image-admin-dash {
+  border-radius: 8px 8px 0px 0px;
+  width: 297px;
+}
+
+.admindashboardboxnamePA {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  width: auto;
+  height: auto;
+  left: 19px;
+  top: 49px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #000000;
+}
+
+.admindashboardboxnameSM {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  width: auto;
+  height: auto;
+  left: 19px;
+  top: 49px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #000000;
+  margin-left: 20px;
+}
+
+.ReportHead {
+  display: flex;
+  width: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: normal;
+  margin-left: 100px;
+  margin-top: 25px;
+  height: 35px;
+  left: 40px;
+  top: 193px;
+  background: #0d3c84;
+  border-radius: 4px;
+}
+.ReportHistoryHead {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: normal;
+  margin-left: 100px;
+  margin-top: 25px;
+  height: 35px;
+  left: 40px;
+  top: 193px;
+  background: #0d3c84;
+  border-radius: 4px;
+}
+
+.Reports {
+  width: 72px;
+  height: 20px;
+  left: 41px;
+  top: 147px;
+  margin-top: 30px;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: rgba(60, 60, 60, 0.8);
+}
+.downloadreport {
+  text-decoration: none;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 3px 20px;
+  gap: 8px;
+  width: 174px;
+  height: 30px;
+  left: 1167px;
+  top: 144px;
+  background: #ffffff;
+  color: #ff5711;
+  border: 0.5px solid #ff5711;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+.generatedreport {
+  text-decoration: none;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 3px 20px;
+  gap: 8px;
+  width: 103px;
+  height: 30px;
+  left: 1167px;
+  top: 144px;
+  background: #ffffff;
+  color: #ff5711;
+  border: 0.5px solid #ff5711;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+.ReportsListViewRecentActionRow {
+  height: auto;
+  overflow-y: scroll;
+}
+.ReportsHistoryListViewRecentActionRow {
+  height: auto;
+}
+.RHReportdata {
+  border-radius: 4px;
+  background-color: white;
+  margin: 0px 0px 3px 0px;
+  width: 100%;
+  height: 35px;
+  margin-left: 100px;
+  box-shadow: 4px 4px 4px rgb(0 0 0 / 25%);
+}
+.RHAppsReport {
+  height: auto;
+  left: -3px;
+  top: 0px;
+  margin-top: 10px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 22px;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #3c3c3c;
+}
+.RHDate {
+  left: -3px;
+  top: 0px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 22px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #3c3c3c;
+}
+.ReportHistoryStatusinprogress {
+  height: 22px;
+  left: -3px;
+  top: 0px;
+  margin-top: 10px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 22px;
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #ff7f4a;
+}
+.ReportHistoryStatuscompleted {
+  height: 22px;
+  left: -3px;
+  top: 0px;
+  margin-top: 10px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 22px;
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #0bde07;
+}
+.Reportnameactins {
+  width: 100%;
+  height: 28px;
+  left: 64.04px;
+  top: 196px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 1px;
+  margin-left: 120px;
+  color: #ffffff;
+}
+.AppsReport {
+  height: auto;
+  left: -3px;
+  top: 0px;
+  margin-top: 10px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 22px;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #3c3c3c;
+}
+.Acessimage {
+  border-radius: 8px;
+}
+.ReportBuilderYourLogoHere {
+  right: 55px;
+  position: absolute;
+  bottom: 15px;
+}
+.RPYourLogoHere {
+  height: 45px;
+  width: fit-content;
+  min-height: 45px;
+}
+
+.AppReports {
+  height: 20px;
+  left: 41px;
+  top: 147px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: rgba(60, 60, 60, 0.8);
+}
+.ReportInput {
+  display: flex;
+  box-sizing: border-box;
+  margin-left: 121px;
+  width: 100%;
+  height: 35px;
+  left: 40px;
+  top: 186px;
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.InputCopy {
+  width: 48px;
+  box-sizing: border-box;
+  margin-left: 122px;
+  height: 35px !important;
+  left: 429px;
+  top: 186px;
+  background: #fafdff;
+  border: 1px solid #c4c4c4;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.ReportBuilderViewOpacity {
+  padding-top: 20px;
+}
+/* .svg-stroke-comingSoonIcon {
+  stroke: gray !important;
+  cursor: pointer;
+} */
+
+.RBbreadcrum {
+  display: flex;
+  margin-left: 20px;
+  padding-top: 80px;
+}
+.reportsinline {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-top: 45px;
+}
+.reportsviewinline {
+  display: flex;
+  padding-top: 25px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.reportsHistoryinline {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-top: 45px;
+}
+.Regenerate {
+  width: 100%;
+  box-sizing: border-box;
+  margin-left: 12px;
+  height: 22px;
+  left: 489px;
+  top: 193px;
+  background: #ffffff;
+  border: 0.615094px solid #0d3c84;
+  box-shadow: 0px 2px 4px rgb(0 0 0 / 10%);
+  border-radius: 2px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #0d3c84;
+}
+.RBLink {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  /* margin-left: -120px; */
+  padding-top: 20px;
+}
+
+.RGIco {
+  margin-left: 4px;
+}
+.Threedot {
+  margin-left: 25px !important;
+  text-decoration: none;
+  color: #000000;
+  height: 1.5px;
+  width: 1.5px;
+  left: 7.25px;
+  top: 7.25px;
+  border-radius: 0px;
+  cursor: pointer;
+}
+.RBCopy {
+  width: 12.75px;
+  height: auto;
+  margin-left: 84px;
+}
+
+.REgenerateh5 {
+  width: auto;
+  height: 12px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  margin-left: 10px;
+  color: #0d3c84;
+}
+.downloadandcopy {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.RHdownload {
+  width: 13.33px;
+}
+.RHFilter {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 22px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 2px;
+
+  color: #3c3c3c;
+}
+
+.RBdownloddropdown {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: #000000;
+}
+
+.RBdownload-modal .modal-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 387px;
+  color: var(--bs-modal-color);
+  pointer-events: auto;
+  background-color: var(--bs-modal-bg);
+  background-clip: padding-box;
+  border: var(--bs-modal-border-width) solid var(--bs-modal-border-color);
+  border-radius: var(--bs-modal-border-radius);
+  outline: 0;
+  height: 156px;
+  border-radius: 10px;
+}
+
+.RBbreadcrum a img {
+  height: 17px;
+  width: 17px;
+}
+
+.secondaryButtonReportGenerate {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+  color: #ff8872 !important;
+  background: #ffffff !important;
+  border: 0.5px solid #ff8872 !important;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  width: auto;
+  outline: none !important;
+}
+
+.secondaryButtonReportGenerate:hover {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+  color: #e65010 !important;
+  background: #fff3ee !important;
+  border: 0.5px solid #e65010 !important;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  width: auto;
+}
+
+.adminDashContainer {
+  display: flex;
+  /* margin-top: 140px; */
+  margin-bottom: 3rem;
+  margin-left: 60px;
+  box-sizing: border-box;
+  /* background: #e2e0e0; */
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  height: 17rem;
+  width: 18.7rem;
+  flex-direction: column;
+  justify-content: normal;
+  align-items: center;
+  /* overflow-y: auto; */
+  box-shadow: 0px 2px 5px rgba(138, 138, 138, 0.5);
+}
+
+.adminDashContent {
+  display: flex;
+  flex-direction: column;
+  padding: 0.7rem;
+}
+
+.adminDashContainer a {
+  /* text-transform: capitalize; */
+  text-decoration: none;
+  color: #000000;
+}
+
+.adminDashContent span {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: #0d3c84;
+  justify-content: flex-start;
+  margin-bottom: 0.3rem;
+  margin-left: 0;
+}
+
+.adminDashContent p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13.5px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: #000000;
+}

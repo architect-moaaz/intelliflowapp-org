@@ -1,0 +1,48 @@
+.add_role_width {
+  max-width: 820px;
+  margin: 0 auto;
+}
+
+.add_input {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.add_input label {
+  display: block;
+  color: #171717 !important;
+  margin-bottom: 4px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+}
+
+.add_input input,
+.add_input select {
+  width: 100%;
+  border: 1px solid #adadad;
+  border-radius: 4px;
+  background: #fff;
+  height: 40px;
+  padding: 0 10px;
+}
+
+.add_input input:focus,
+.add_input select:focus {
+  outline: none;
+}
+.add_role_width .role_form_btn {
+  margin: 0;
+}
+.add_role_width .role_form_btn a {
+  margin: 0 0 0 10px;
+}
+.toggle_switch_wrap h6 {
+  color: #171717;
+  font-style: normal;
+
+  font-size: 16px;
+  line-height: 140%;
+  margin: 0;
+}

@@ -1,0 +1,123 @@
+.templates-item-img {
+    margin: 0 15px;
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.templates-item-img img {
+    width: 100%;
+}
+
+.templates-item-img a {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    bottom: 0;
+    width: 100%;
+    background: rgba(60, 60, 60, 0.5);
+    border-radius: 0 0 15px 15px;
+    justify-content: center;
+    padding: 12px 0;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15.3425px;
+    line-height: 31px;
+    text-decoration: none;
+}
+
+.templates-item-img a span {
+    margin-right: 6px;
+    transform: translateY(2px);
+}
+
+.templates-header-wrap {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.templates-main .slick-slider {
+    margin: 0 -15px;
+}
+
+.templates-left {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+.templates-filter {
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.templates-main {
+    margin-top: 50px;
+}
+
+.templates-left span {
+    margin-right: 10px;
+}
+
+.templates-left h5 {
+    letter-spacing: 0.02em;
+    color: rgba(60, 60, 60, 0.8);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.templates-filter a {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    letter-spacing: 1px;
+    color: #3C3C3C;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.templates-filter a svg {
+    fill: #BFD4E4;
+}
+
+.templates-filter a span {
+    margin-right: 8px;
+}
+
+/* @media (max-width: 991px) {
+    .templates-main {
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 575px) {
+    .templates-left h5 {
+        font-size: 18px;
+    }
+}
+
+
+@media (max-width: 479px) {
+    .templates-header-wrap {
+        flex-wrap: wrap;
+    }
+
+    .templates-left {
+        width: 100%;
+    }
+
+    .templates-filter {
+        margin-bottom: 5px;
+    }
+
+    .templates-filter a {
+        margin: 0 10px 0 0px;
+    }
+} */

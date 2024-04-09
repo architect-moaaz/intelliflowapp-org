@@ -1,0 +1,487 @@
+/* Default Css */
+.orange-text {
+  color: #ff5711 !important;
+}
+
+.gray-text {
+  color: #8a8a8a !important;
+}
+
+.react-responsive-modal-root {
+  z-index: 99999999 !important;
+}
+
+.react-responsive-modal-container {
+  outline: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.react-responsive-modal-closeButton {
+  position: absolute;
+  top: 15.5px;
+  right: 25px;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  background-color: transparent;
+  display: flex;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+.height100 {
+  height: 100%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #004166;
+  border-color: #004166;
+}
+
+.LeftMenu svg {
+  padding: 2px;
+  margin-bottom: 30px;
+}
+
+.LeftMenu svg:hover {
+  border-left: 2px solid #ff5711;
+}
+
+.RightMenuBorder svg {
+  margin-bottom: 30px;
+}
+
+.RightMenuBorder {
+  margin-top: 45px;
+}
+
+.VerticalAndHorizontalCenter {
+  margin: 0;
+  position: sticky;
+  top: 45%;
+  left: 50%;
+}
+
+.buttons-success {
+  background-color: #ff5711;
+  filter: drop-shadow(4px 4px 12px rgba(0, 0, 0, 0.25));
+}
+
+.primaryButton {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+  color: #ffffff;
+  background: #ff5711;
+  border: 0.5px solid #ff8872;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  width: auto;
+}
+
+.primaryButton:hover {
+  /* padding-left: 15px !important;
+  padding-right: 15px !important;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important; */
+  color: #ffffff;
+  background: #e65010;
+  /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  width: auto; */
+}
+
+.secondaryButton {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+  color: #ff8872;
+  background: #ffffff;
+  border: 0.5px solid #ff8872;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  width: auto;
+}
+
+.secondaryButton:hover {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+  color: #e65010;
+  background: #fff3ee;
+  border: 0.5px solid #e65010;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  width: auto;
+}
+
+.btn-check:focus + .btn,
+.btn:focus {
+  box-shadow: none !important;
+}
+
+.smallButton {
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.mediumButton {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.largeButton {
+  padding-left: 125px !important;
+  padding-right: 125px !important;
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+}
+
+.fixedNotificationPanel {
+  height: 25px;
+  width: 18px;
+  position: absolute;
+  /* margin-top: 50px; */
+}
+
+.__react_component_tooltip::before,
+.__react_component_tooltip::after {
+  border-top-color: #f8f8fb !important;
+  border-left-color: #f8f8fb !important;
+}
+
+.__react_component_tooltip {
+  display: -webkit-flex !important;
+  border: 1px solid #f8f8fb !important;
+  display: flex !important;
+  -webkit-justify-content: center !important;
+  justify-content: center !important;
+  border-radius: 8px !important;
+  color: #0d3c84 !important;
+  font-size: 15px !important;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+  width: auto !important;
+  background: #f8f8fb !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+}
+
+.wrapper .tooltip {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  border-radius: 8px;
+  color: #0d3c84;
+  font-size: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: auto;
+  background: #f8f8fb;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.wrapper:hover .tooltip {
+  opacity: 1;
+}
+
+.choose-screen-text {
+  font-size: 10px;
+}
+
+.choose-screen-text-selected {
+  font-size: 10px;
+  color: #ff5711;
+}
+
+.highlightOption {
+  background: #fff !important;
+  color: #000 !important;
+}
+
+.multiSelectContainer li {
+  background: #fff !important;
+  color: #000 !important;
+}
+
+.multiSelectContainer li :hover {
+  background: #fff !important;
+  color: #000 !important;
+}
+/* Custom Scroll Bar Start */
+.customScrollBar::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.customScrollBar::-webkit-scrollbar {
+  width: 7px !important;
+  height: 7px !important;
+  background-color: #d9d9d9;
+  position: fixed !important;
+}
+
+.customScrollBar::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #d9d9d9;
+}
+
+.customScrollBarAccessibilityDropdown::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #f8f8f8;
+}
+
+.customScrollBarAccessibilityDropdown::-webkit-scrollbar {
+  width: 7px !important;
+  background-color: #d9d9d9;
+  position: fixed !important;
+}
+
+.customScrollBarAccessibilityDropdown::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #d9d9d9;
+}
+
+.YourLogoHere {
+  height: 45px;
+  width: fit-content;
+  min-height: 45px;
+}
+
+/* Custom Scroll Bar End*/
+.multiSelectContainer li :hover {
+  background: #fff !important;
+  color: #000 !important;
+}
+
+.appdesigner-rightside-menu .svg-fill {
+  /* width: 80px; */
+  /* height: 80px; */
+  /* margin: 40px; */
+  /* stroke: red; */
+  fill: #0d3c84;
+}
+.appdesigner-rightside-menu .svg-fill:hover {
+  fill: #ff9a62;
+  /* stroke: green; */
+}
+
+.appdesigner-rightside-menu .svg-stroke {
+  /* width: 80px; */
+  /* height: 80px; */
+  /* margin: 40px; */
+  /* stroke: red; */
+  stroke: #0d3c84;
+  /* stroke: gray; */
+}
+.appdesigner-rightside-menu .svg-stroke:hover {
+  stroke: #ff9a62;
+  /* stroke: green; */
+}
+
+.main-sidebar .svg-fill {
+  /* width: 80px; */
+  /* height: 80px; */
+  /* margin: 40px; */
+  /* stroke: red; */
+  fill: #0d3c84;
+}
+.main-sidebar .svg-fill:hover {
+  fill: #ff9a62;
+  /* stroke: green; */
+}
+
+.main-sidebar .svg-stroke {
+  /* width: 80px; */
+  /* height: 80px; */
+  /* margin: 40px; */
+  /* stroke: red; */
+  stroke: #0d3c84;
+}
+.main-sidebar .svg-stroke:hover {
+  stroke: #ff9a62;
+  /* stroke: green; */
+}
+
+.pages-tab-setting .svg-fill {
+  /* width: 80px; */
+  /* height: 80px; */
+  /* margin: 40px; */
+  /* stroke: red; */
+  fill: #0d3c84;
+}
+.pages-tab-setting .svg-fill:hover {
+  fill: #ff9a62;
+  /* stroke: green; */
+}
+
+.pages-tab-setting .svg-stroke {
+  /* width: 80px; */
+  /* height: 80px; */
+  /* margin: 40px; */
+  /* stroke: red; */
+  stroke: #0d3c84;
+}
+.pages-tab-setting .svg-stroke:hover {
+  stroke: #ff9a62;
+  /* stroke: green; */
+}
+
+.svg-fill {
+  /* width: 80px; */
+  /* height: 80px; */
+  /* margin: 40px; */
+  /* stroke: red; */
+  fill: #0d3c84;
+}
+.svg-fill:hover {
+  fill: #ff9a62;
+  /* stroke: green; */
+}
+
+.svg-stroke {
+  /* width: 80px; */
+  /* height: 80px; */
+  /* margin: 40px; */
+  /* stroke: red; */
+  stroke: #0d3c84;
+}
+.svg-stroke:hover {
+  stroke: #ff9a62;
+  /* stroke: green; */
+}
+/* Virtual Keyboard */
+.ML__keyboard {
+  z-index: 99999999 !important;
+  /* --keycap-background-border-bottom: "black" !important; */
+  --keyboard-background-border: transparent !important ;
+  --keyboard-background: #ff5711 !important;
+  --keyboard-width: 10vw !important;
+  margin-bottom: 20px;
+  --keyboard-text: #0d3c84 !important;
+}
+.ML__keyboard .ML__keyboard--plate {
+  width: fit-content !important;
+}
+.disabled {
+  pointer-events: none;
+}
+.border {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.ellipsis {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.svg-stroke-comingSoonIcon {
+  stroke: gray !important;
+  cursor: pointer;
+}
+.svg-fill-comingSoonIcon {
+  fill: gray !important;
+  cursor: pointer;
+}
+
+.r_sel__menu-list::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.r_sel__menu-list::-webkit-scrollbar {
+  width: 7px !important;
+  height: 7px !important;
+  background-color: #d9d9d9;
+  position: fixed !important;
+}
+
+.r_sel__menu-list::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #d9d9d9;
+}
+
+.r_sel__menu-list {
+  max-height: 200px !important;
+}
+.r_sel__option {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.luckysheet-share-logo {
+  background-image: none;
+}
+.luckysheet_info_detail div.luckysheet_info_detail_back {
+  display: none;
+}
+
+.luckysheet table tbody tr td {
+  padding: 0px;
+}
+.luckysheet table tbody tr {
+  height: 0px;
+}
+
+.tooltipCustom {
+  max-width: 50%;
+}
+
+body > iframe {
+  display: none;
+}
+
+.activity-indicator {
+  border: 4px solid rgba(0, 0, 0, 0.2);
+  border-top: 4px solid #ff5711;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.row,
+.col,
+button {
+  margin: 0px !important ;
+  padding: 0px !important;
+}

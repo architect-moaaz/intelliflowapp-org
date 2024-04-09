@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #FBFBFB !important;
+}
+
+code {
+  font-family: "Lato";
+}
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+body p {
+  margin:0 0 15px 0;
+}
+
+
+body h1:nth-last-child(1),
+body h2:nth-last-child(1),
+body h3:nth-last-child(1),
+body h4:nth-last-child(1),
+body h5:nth-last-child(1),
+body h6:nth-last-child(1),
+body p:nth-last-child(1){
+  margin-bottom: 0;
+}

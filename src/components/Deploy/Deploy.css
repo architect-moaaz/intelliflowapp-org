@@ -1,0 +1,60 @@
+.buttonStyle {
+  padding: 8px 0;
+  max-width: 100px;
+  width: 100%;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 12% !important;
+  border-radius: 3px;
+}
+.textalign {
+  text-align: center;
+  margin-bottom: 35px !important;
+}
+.deployfail {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.deploy-loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.deploy-fail {
+  background-color: #f8f8f8;
+  border-radius: 10px;
+}
+
+.deploy-failerrormodal {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.deploy-errormessage {
+  color: #8a8a8a;
+}
+.deploydata {
+  height: 36vh;
+  overflow: auto;
+}
+.deploy-datalogs {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.deploy-pre {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+
+
+
+.deployment-progress-modal .modal-dialog{
+  max-width: 40vw;
+
+}

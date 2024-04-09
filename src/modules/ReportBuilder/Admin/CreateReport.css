@@ -1,0 +1,280 @@
+.custom-accordion-header {
+  font-weight: 500 !important;
+  font-size: 12px !important;
+}
+
+.widget-chekbox {
+  border-color: #8a8a8a;
+  border: 2px solid;
+  box-shadow: none !important;
+}
+
+.team-container {
+  width: "80px";
+  height: "40px";
+
+  border: "0.5px solid rgba(0, 0, 0, 0.2)";
+  border-radius: "4px";
+  display: "flex";
+  align-items: "center";
+  justify-content: "center";
+  margin-top: "15px";
+  margin-right: "15px";
+  font-weight: "500";
+  font-size: "12px";
+}
+
+.team-active {
+  background-color: "#FF5711";
+  color: #ffff;
+}
+
+.team-inactive {
+  background-color: "#FAFAFA";
+}
+
+.report-download-iconContainer {
+  margin: 0px;
+}
+
+.datamodel-heading {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 139% */
+
+  letter-spacing: 0.02em;
+
+  /* Neutral Color/Neutral - 60% */
+
+  color: #8a8a8a;
+}
+
+.datamodel-table {
+  background: rgba(229, 229, 229, 0.5);
+  border-radius: 7.44966px;
+}
+
+.datamodel-header {
+  background: #0d3c84;
+  border-radius: 7.44966px 7.44966px 0px 0px;
+
+  font-weight: 500;
+  font-size: 9px;
+  line-height: 11px;
+  text-transform: capitalize;
+
+  color: #ffffff;
+  padding: 5px 10px 5px 10px;
+}
+
+.datamodel-body {
+}
+
+.entity-card {
+  /* display: flex;
+  flex-direction: row; */
+  border: 1px solid #a9bbc9;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 11px;
+  /* identical to box height */
+
+  text-transform: capitalize;
+
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.report-settings-section {
+  background: rgba(216, 224, 232, 0.5);
+  border-radius: 4px;
+}
+
+.drag-message {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+
+  color: #0d3c84;
+}
+
+.active-fields-container {
+  background: #fafafa;
+  border-radius: 3.33119px;
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+}
+
+.queries-parent-container {
+  background: #e5e5e5;
+}
+
+.queries-container {
+  background: #e5e5e5;
+  border-radius: 3.33119px;
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+}
+
+.active-entity {
+  border: 1px solid #000000;
+  width: fit-content;
+}
+
+
+.active-entity-name {
+  font-weight: 600;
+  font-size: 8.9396px;
+  line-height: 11px;
+
+  color: rgba(0, 0, 0, 0.8);
+}
+
+/* .active-entity-name:hover{
+  background-color: red;
+ z-index: 2;
+ position:relative;
+} */
+
+
+.activeEntityInput:hover:disabled{
+  
+  cursor:text;
+}
+
+
+
+.query-header {
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 11px;
+  /* identical to box height */
+
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.no-queries {
+  font-weight: 600;
+  font-size: 9px;
+  line-height: 11px;
+  /* identical to box height */
+
+  color: rgba(60, 60, 60, 0.8);
+}
+
+.active-query {
+  background: #d9d9d9;
+  border-radius: 18px;
+  font-weight: 600;
+  font-size: 9px;
+  line-height: 12px;
+  letter-spacing: 0.02em;
+
+  color: #000000;
+  white-space: nowrap;
+}
+
+.and-block {
+  width: 100%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  /* left: 322px;
+top: 280px; */
+
+  background: #fafafa;
+  border-radius: 4px;
+
+  border: 1px solid #e5e5e5;
+}
+
+.query-modal .modal-dialog-scrollable .modal-body {
+  height: 50vh;
+}
+
+/* .query-modal{
+  height: 70vh ;
+  margin-top: 10vh;
+  
+} */
+
+.query-modal .modal-dialog {
+  max-width: 50vw;
+}
+
+.query-dropdown {
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 110px;
+  font-weight: 500;
+font-size: 12px;
+}
+
+.activeEntityInput {
+  border: none;
+  outline: none;
+}
+
+.activeEntityInput:active {
+  border: none;
+  outline: none;
+}
+
+.btn_addDataModel {
+  /* Shades/Pure white */
+  color: #8a8a8a;
+
+  background: #ffffff;
+  /* Neutral Color/Neutral - 60% */
+
+  border: 0.5px solid #8a8a8a;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+/* relationship builder popup css starts here */
+
+.realtionship-modal .modal-dialog-scrollable .modal-body {
+  height: 50vh;
+}
+
+.realtionship-modal .modal-dialog {
+  max-width: 70vw;
+}
+.realtionship-modal-body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+.relationship-content-container {
+  flex: 0.8;
+}
+
+.relationship-button-container {
+  flex: 0.1;
+}
+
+.relationship-top-container {
+  flex: 0.1;
+}
+
+.btn-addDataModel {
+  background: #ffffff;
+  border: 0.615094px solid #0d3c84;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  color: #0d3c84;
+  font-weight: 500;
+font-size: 12px;
+padding: 2px 10px 1px 1px !important;
+height: 25px;
+}

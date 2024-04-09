@@ -1,0 +1,200 @@
+
+.notification-header-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.notification-header-wrap h5 {
+  margin-bottom: 0;
+  letter-spacing: 1px;
+  color: rgba(60, 60, 60, 0.8);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  margin-right: auto;
+}
+
+.todo-list {
+  height: 72vh;
+  width: 220px;
+  left: 2px;
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 2px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-top: 15px;
+  padding-right: 0px;
+}
+
+.todo-list h5 {
+  color: #0d3c84;
+  font-weight: bold;
+  position: sticky;
+  top: 0;
+  background-color: #f7f5f7;
+  z-index: 1;
+  line-height: 43px;
+}
+
+.Open-To-do-list {
+  /* text-decoration: underline;  */
+  color: #8a8a8a;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.todo-list li a p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.horizontalLine {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: 0.5px solid rgba(0, 0, 0, 0.15);
+  transform: rotate(0.24deg);
+  position: absolute;
+  width: 215px;
+  bottom: 55px;
+}
+
+.appStoreYourLogoHere {
+  position: absolute;
+  right: 55px;
+  bottom: 15px;
+}
+
+/* .todo-line {
+  position: absolute;
+  top: 0;
+  left: -7px;
+  width: 3px;
+  background: #ff962f;
+  height: calc(100% - 20px);
+} */
+
+li.todo:nth-child(4n + 1) {
+  /* position: absolute;
+  top: 0;
+  left: -7px;
+  width: 3px; */
+  border-left: 3px solid #0be78b;
+  /* height: calc(100% - 20px); */
+}
+li.todo:nth-child(4n + 2) {
+  /* position: absolute;
+  top: 0;
+  left: -7px;
+  width: 3px; */
+  border-left: 3px solid #11a9ff;
+  /* height: calc(100% - 20px); */
+}
+li.todo:nth-child(4n + 3) {
+  /* position: absolute;
+  top: 0;
+  left: -7px;
+  width: 3px; */
+  border-left: 3px solid #ff7f4a;
+  /* height: calc(100% - 20px); */
+}
+li.todo:nth-child(4n + 4) {
+  /* position: absolute;
+  top: 0;
+  left: -7px;
+  width: 3px; */
+  border-left: 3px solid #8676ff;
+  /* height: calc(100% - 20px); */
+}
+
+.todo-box {
+  position: relative;
+  /* right: 6px; */
+  width: 235px;
+  height: auto;
+}
+.close-todo-list {
+  position: absolute;
+  right: 3px;
+  bottom: 3px;
+  /* display: block; */
+  width: 13px;
+  height: 13px;
+  /* margin-left: auto; */
+}
+
+.close-todo-list img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  vertical-align: baseline;
+}
+
+.notification-header-wrap h4 {
+  color: rgba(60, 60, 60, 0.8);
+}
+.open-todo {
+  width: 5px;
+  /* margin-left: 10px; */
+}
+.open-todo img {
+  width: 12px;
+}
+
+/* @media (max-width: 991px) {
+  .todo-box {
+    padding: 10px;
+    max-height: 400px;
+    overflow: auto;
+  }
+} */
+
+li.todo p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  /* line-height: 17px; */
+  margin: 0;
+  max-width: 200px;
+  word-break: break-word;
+}
+
+.todoDateTime {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 13px;
+  color: #8a8a8a;
+  margin-left: 5px;
+}
+
+.todo ul {
+  background-color: rgba(0, 0, 0, 0.05) !important;
+  top: 80px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+li.todo {
+  display: flex;
+  margin-bottom: 20px;
+  position: relative;
+  flex-wrap: wrap;
+  padding-left: 10px;
+}
+.todo-calender-date{
+    height: 15px;
+    width: 15px;
+}

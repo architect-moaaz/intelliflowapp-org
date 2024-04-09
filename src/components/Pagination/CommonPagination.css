@@ -1,0 +1,58 @@
+/* pagination component css */
+.pagination {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 5px;
+  display: flex;
+  list-style: none;
+  outline: none;
+  background-color: #e5e5e5;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 2.8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  float: right;
+  justify-self: end;
+  place-self: end;
+}
+.pagination > .active > a {
+  background-color: #ffffff;
+  /* border-color: #47ccde; */
+  color: #0d3c84;
+  border: 0.720575px solid #0d3c84;
+}
+.pagination > li > a {
+  border: 1px solid #47ccde;
+  padding: 5px 10px;
+  outline: none;
+  cursor: pointer;
+  text-decoration: none;
+  margin: 5px;
+  border-radius: 5px;
+}
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  background-color: #ffffff;
+  border-color: #0d3c84;
+  outline: none;
+}
+.pagination > li > a,
+.pagination > li > span {
+  color: #c4cdd5;
+  background-color: #ffffff;
+  border-radius: 5px !important;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-color: #ffffff;
+}
+.pagination > li:first-child > a,
+.pagination > li:first-child > span,
+.pagination > li:last-child > a,
+.pagination > li:last-child > span {
+  border-radius: unset;
+}

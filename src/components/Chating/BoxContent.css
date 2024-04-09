@@ -1,0 +1,129 @@
+.search-container {
+  position: relative;
+}
+
+.search-container input[type="search"] {
+  padding-left: 32px; /* Adjust the padding to make room for the search icon */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height: 30px;
+  width: 100%;
+  margin-top: 0px;
+}
+
+input[type="search" i]::-webkit-search-cancel-button {
+  margin-right: 13px;
+}
+
+.search-container button {
+  position: absolute;
+  top: 50%;
+  left: 8px;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.search-container img {
+  width: 15px;
+  height: 18px;
+  justify-items: center;
+}
+
+.chatTabs {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.chatTabs .chatTab {
+  border: none;
+  background-color: transparent;
+  color: black;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-bottom: 2px solid #ccc;
+  flex: 1;
+  text-align: center;
+  transition: border-color 0.2s ease;
+}
+
+.chatTabs .chatTab.active {
+  border-color: #fa5b3d;
+}
+
+.tab-content {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  /* height: 500px; */
+}
+
+.scrollable-content {
+  height: 475px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.username-box {
+  width: 100%;
+  margin: 10px 3px 2px 0px;
+  padding-left: 0.2rem;
+  display: flex;
+  height: 70px;
+  cursor: pointer;
+}
+
+.userprofile-container {
+  flex: 0.19;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  position: relative;
+  background-color: #ffffff;
+  margin-right: 10px;
+}
+
+.profile-image-user {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 25px;
+  border: 1px solid white;
+}
+
+.user-info-name-lastmsg-box {
+  flex: 0.6;
+  display: flex;
+  justify-items: center;
+  flex-direction: column;
+  margin-right: 2px;
+  margin-top: 5px;
+}
+.last-msg-user {
+  font-size: 12px;
+}
+.user-name-messaging {
+  font-family: "Lato";
+  font-size: 16px;
+}
+.user-name-lastmsg {
+  justify-content: center;
+}
+
+.user-msg-date-and-dot {
+  flex: 0.2;
+  margin-left: 5px;
+}
+
+.bottomLine-seperate {
+  border: 1px solid #ccc;
+  margin-top: -10px;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.three-dots-msg {
+  margin-top: -5px;
+}

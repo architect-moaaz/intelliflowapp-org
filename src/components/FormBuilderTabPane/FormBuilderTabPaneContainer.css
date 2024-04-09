@@ -1,0 +1,69 @@
+.form-properties-modal {
+  padding: 0;
+}
+.form-properties-modal .modal-content {
+  width: 24rem;
+}
+.form-properties-modal .modal-body {
+  padding-top: 0;
+}
+
+.TextBox-custom-flex {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.display-back-color-picker {
+  display: block;
+  position: fixed;
+  right: 380px;
+  bottom: 165px;
+  text-align: center;
+  background-color: #ffffff;
+  color: #000;
+  border-radius: 10px;
+}
+.form-cust-input {
+  border-radius: 4px;
+  border: 1px solid #e5e5e5;
+  background: #fff;
+  height: 33px;
+}
+.color-box-wrapper {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+}
+.color-box-container {
+  padding-right: 40px;
+}
+.form-prop-color-box {
+  height: 20px;
+  width: 20px;
+  min-width: 10px;
+  border-radius: 3px;
+  margin: 5px 0px;
+  border: 1px solid rgb(229, 229, 229);
+  cursor: pointer;
+}
+.form-prop-color-box-style {
+  display: flex;
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+  width: 30%;
+  place-items: center;
+  place-content: space-around;
+  cursor: pointer;
+}
+.form-prop-upload-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 40px;
+}
+.remove-btn-form-prop {
+  cursor: pointer;
+}
+.renameFileNameContainer .renameFileName {
+  margin-left: 18px !important;
+}

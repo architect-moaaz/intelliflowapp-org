@@ -1,0 +1,34 @@
+.columnfields {
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+.columnfields .columnname {
+  width: 100px;
+  margin-right: -10px;
+}
+.columnfields .displayname {
+  width: 90px;
+  margin-right: 10px;
+}
+.columnfields .displayname .displayitems {
+  padding-top: 7px;
+}
+.columnfields .columnaccessiblilty {
+  width: 90px;
+  font-size: smaller;
+}
+.columnfields .columnaccessiblilty .accitems {
+  padding-top: 15px;
+  padding-left: 8px;
+}
+.accessibility-head-wrap {
+  display: flex !important;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.explore-btn {
+  background-color: transparent;
+  color: #0c83bf;
+}

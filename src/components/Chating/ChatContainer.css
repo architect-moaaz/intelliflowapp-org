@@ -1,0 +1,129 @@
+.selected-user-box {
+  position: fixed;
+  bottom: 3%;
+  right: 17%;
+  max-width: 350px;
+  width: 300px;
+  min-width: 280px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  display: flex;
+  height: 420px;
+  z-index: 999999;
+  flex-direction: column;
+}
+
+.selected-user-box .header {
+  display: flex;
+  align-items: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #0d3c84;
+  color: white;
+}
+
+.selected-user-box .profile-picture {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+.selected-user-box h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.selected-user-box .close-button {
+  font-size: 18px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.selected-user-box .box-content {
+  height: 75%;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 5px;
+  margin: 5px;
+}
+
+.selected-user-box .message {
+  background-color: #f0f0f0;
+  padding: 8px;
+  margin-bottom: 5px;
+}
+
+.messaging-input-container {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  flex: 1;
+}
+
+/* .emoji{
+  flex: 0.1;
+} */
+
+.selected-user-box .msg-input-container {
+  /* display: flex; */
+  align-items: center;
+  padding: 7px 5px 10px 0px;
+  flex: 1;
+}
+
+.selected-user-box input {
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  margin-right: 10px;
+  width: 82%;
+}
+
+.selected-user-box button {
+  height: 30px;
+  width: 30px;
+  background-color: #fa5b3d;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.send-btn {
+  margin-bottom: 2px;
+}
+
+.message {
+  display: flex;
+  align-items: center;
+}
+
+.message .content {
+  max-width: 40%;
+  overflow-wrap: break-word;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  color: white;
+}
+
+.sent {
+  justify-content: flex-end;
+}
+.sent .content {
+  background-color: #0d3c84;
+}
+
+.recieved {
+  justify-content: flex-start;
+}
+.recieved .content {
+  background-color: #0d3c84;
+}

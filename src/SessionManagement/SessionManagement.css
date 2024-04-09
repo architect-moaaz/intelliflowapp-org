@@ -1,0 +1,32 @@
+.stay-loggButton {
+  margin-top: 25px;
+  float: right;
+}
+.sessionManagement-body {
+  margin-top: 20px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.sessionManagement-body-alertIcon {
+  color: red;
+  margin-right: 10px;
+}
+.sessionManagement-conatiner {
+  width: fit-content;
+}
+.sessionManagement-conatiner {
+  width: 90vw;
+  border-radius: 20px;
+}
+.sessionManagement-conatiner .modal-content {
+  border-radius: 10px;
+  background-color: #fff;
+  background-clip: padding-box;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  outline: 0;
+  pointer-events: auto;
+  position: relative;
+}

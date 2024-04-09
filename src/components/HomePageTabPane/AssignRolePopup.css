@@ -1,0 +1,193 @@
+.customCard {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    /* border-radius: 0.75rem; */
+    /* box-shadow: 0 0px 0px 0 rgb(0 0 0 / 20%), 0 1px 11px 0 rgb(0 0 0 / 19%); */
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  }
+  .bi-x-circle-fill{
+    fill: #C4C4C4 !important;
+  }
+  .accessibility-savedaction{
+    margin-top: 2;
+  }
+  .accessibility-card{
+    height: 100%;
+    width: 100%;
+  }
+  .accessibility-allselect{
+    font-size: small;
+  }
+  .accessibility-username{
+    font-size: 12px;
+  }
+  .acessibility-pop-up{
+    display: flex;
+    flex-direction:column ;
+   overflow-x: auto;
+    padding: 2px;
+   
+  }
+  .accessibility-2{
+    display: flex;
+    flex-Direction: row;
+    flex-wrap:wrap;
+     padding: 2px,
+  }
+  .accessibility-input{
+    accent-color: red;
+  }
+  .customDropdownBtn {
+    color: black;
+    padding-bottom: 8px !important;
+    padding-top: 8px !important;
+    padding-right: 12px !important;
+    padding-left: 12px !important;
+    /* border-radius: 0.3rem; */
+    font-weight: 600;
+    font-size: 0.8em;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* box-shadow: rgb(0 0 0 / 15%) 2px 2px 2px 2px,
+      rgb(0 0 0 / 15%) 2px 2px 10px 2px; */
+    background-color: #f8f8f8;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    outline: none;
+  
+    background: #F8F8F8;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 4px
+  }
+  
+  .dropdown-button:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  .accessibility-row{
+    display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+  }
+  .accessibility-clearandsave{
+    display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+  }
+  .minibtn {
+    color: black;
+    background-color: #fafafa;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    padding-right: 4px;
+    padding-left: 4px;
+    border-radius: 0.3rem;
+    font-weight: 600;
+    font-size: 0.7em;
+    width: 80%;
+    min-width: 30%;
+    text-align: start;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: 0.5px solid #e5e5e5;
+  }
+  
+  .actioninput {
+      box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+    background-color: #f8f8f8;
+    border-radius: 4px;
+    font-weight:normal;
+    font-size: 0.8em;
+    width: 100%;
+    text-align: start;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    padding: 8px;
+    outline: none;
+  }
+  
+  .clearButton {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    color: #ff8872;
+    background: #ffffff;
+    border: 0.5px solid #ff8872;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+  }
+  
+  .saveButton {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    color: #ffffff;
+    background: #ff5711;
+    border: 0.5px solid #ff8872;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+  }
+  
+  
+  .checkboxIcon{
+      background-color: #F8F8F8;
+      border-color: #FF7F4A;
+  }
+  
+  /* .dropdown-menu{
+    width: 100%;
+  } */
+  
+  .dropdown-area{
+    /* width: 21% !important; */
+  }
+  
+  .dropdown-menu-container{
+      background-color: #f8f8f8;
+      border-radius: 4px;
+      /* width: 0px !important; */
+  }
+  
+  .dropdown-option-container{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+  }
+  
+  .accessibility-modal-assignrole{
+    height: 60vh;
+    margin-top: 15vh;
+    
+  }
+
+  
+  .accessibility-modal .modal-dialog{
+    max-width: 40rem;
+  
+  }
+  /* 
+  .dropdown-menu.show{
+    width: 20.5%;
+    height: 25vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  } */
+  
+  .dropdown-menu-scroll.show{
+    width: 27%;
+    max-height: 25vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }

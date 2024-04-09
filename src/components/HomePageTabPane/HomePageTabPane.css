@@ -1,0 +1,160 @@
+.device {
+  padding-left: 150%;
+}
+
+.Usertask {
+  display: flex;
+  min-width: max-content;
+  width: max-content;
+}
+.files-body-wrap .sidebar-accordion .coreUIDropdown {
+  height: 16px;
+  width: 16px;
+  color: #0c83bf;
+  display: inline-block;
+}
+.coreUIDropdown {
+  transform: rotate(180deg);
+  position: absolute;
+  right: 10px;
+}
+.collapsed .coreUIDropdown {
+  transform: rotate(0deg);
+}
+
+.main-body-wrap {
+  overflow-y: scroll;
+}
+
+.error-modal {
+  height: 70vh;
+  margin-top: 10vh;
+}
+
+.error-modal .modal-dialog {
+  max-width: 75vw;
+}
+
+.comment {
+  width: 200%;
+  border: groove;
+}
+.FormcommentmapButton {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+  color: #ffffff;
+  background: #ff5711;
+  border: 0.5px solid #ff8872;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  width: 24%;
+}
+
+/* .main-body-wrap::-webkit-scrollbar {
+    display: none;
+  } */
+
+/* .text-properties-box form {
+    overflow-y: scroll;
+    height: 36vh;
+  } */
+
+/* .text-properties-box form::-webkit-scrollbar {
+    display: none;
+  } */
+
+.errowarcontainer {
+  position: absolute;
+  border-radius: [object Object]px;
+}
+.errowarcontainer .modal .show {
+  height: 1220px;
+  width: 1221px !important;
+  left: 1px;
+  bottom: 0px;
+}
+.errowarcontainer .modal-content {
+  height: 500px;
+  width: 1221px !important;
+  position: absolute;
+  bottom: -28px;
+}
+.errowarcontainer .modal-dialog {
+  height: 500px;
+  width: 1221px !important;
+  position: absolute;
+  left: 150px;
+  bottom: 0px;
+}
+.errowarcontainer .modal-header {
+  background: #e5e5e5;
+  border-radius: 10px 10px 0px 0px;
+  color: #fff;
+  height: 45px;
+  width: auto;
+}
+.errowarcontainer .modal-title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #f50e0e;
+}
+.Toastify__toast-container {
+  z-index: 100000000;
+}
+
+.formPreviewRight {
+  /* display: flex; */
+  width: 17vw;
+  height: 100vh;
+  border-left: 2px solid #c4c4c4;
+}
+.formPreviewRightTop {
+  display: flex;
+  flex-flow: row;
+  flex-direction: row;
+  position: relative;
+  align-content: space-evenly;
+  justify-content: space-evenly;
+  height: 18%;
+  background: #e5e5e5;
+  align-items: center;
+  align-content: center;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.formPreviewDevice {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formPreviewDevice .formPreviewDeviceIcon {
+  margin-bottom: 10px !important;
+}
+
+/* .role_btn_wrap_role{ */
+  /* width: 3rem; */
+  /* padding: 5px !important; */
+  /* background-color: #e9e9e9 ; */
+  /* color: #3c3c3c; */
+/* } */
+/* .role_btn_wrap_role:hover{ */
+  /* background-color: #0c83bf;  */
+  /* color: #e9e9e9; */
+/* } */
+
+.mappingInfo_modal{
+  /* margin: -10px; */
+  padding: 0px;
+  overflow-y: auto;
+  max-height: 40vh;
+}
+.assign-role-info-modal{
+  height: 60vh;
+  margin-top: 15vh;
+}

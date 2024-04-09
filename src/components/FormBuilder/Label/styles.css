@@ -1,0 +1,273 @@
+.editable {
+  width: 100%;
+  height: auto;
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+  padding: 5px;
+  resize: none;
+  background: #ffffff;
+}
+.EditButtonContainer {
+  display: flex;
+  flex-wrap: wrap;
+  place-content: center;
+}
+
+button {
+  /* min-width: 76px;
+  padding: 5px !important;
+  margin: 3px !important; */
+  background: #0d3c84;
+  color: white;
+  border-radius: 3px;
+  border: none;
+}
+
+.main-work-flow .tab-content {
+  width: 100%;
+}
+
+/* .nav-pills.label-pills .nav-link.active,
+.nav-pills.label-pills .show > .nav-link {
+  background: #0d3c84;
+} */
+
+/* .nav-link {
+  background: none !important;
+}
+.nav-link:hover,
+.nav-link:focus {
+  background: none !important;
+} */
+
+/* .nav.label-pills {
+  justify-content: center;
+} */
+.compact-picker {
+  width: 100%;
+}
+
+.nav-pills.label-pills .nav-link.active {
+  background: none;
+  color: #ff5711;
+  border-bottom: 3px solid #ff5711;
+  border-radius: unset;
+}
+
+.nav-pills.label-pills .nav-link {
+  color: #8a8a8a;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.nav.nav.label-pills {
+  justify-content: space-evenly;
+}
+
+label {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.select select {
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+.TextStyle {
+  display: flex;
+  place-content: space-between;
+}
+
+.TextStyle select {
+  width: 48%;
+  margin-bottom: 10px;
+}
+
+.Alignment {
+  display: flex;
+  text-align: center;
+}
+
+.lcrAlignment {
+  width: 50%;
+  display: flex;
+  place-content: space-evenly;
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+.lcrAlignment img {
+  width: 15px;
+  height: 15px;
+}
+.tmbAlignment {
+  width: 50%;
+  display: flex;
+  place-content: space-evenly;
+}
+.tmbAlignment img {
+  width: 15px;
+  height: 15px;
+}
+
+.colorBox {
+  height: 20px;
+  width: 20px;
+  min-width: 10px;
+  border-radius: 3px;
+  margin: 5px 0px;
+  border: 1px solid rgb(229, 229, 229);
+  cursor: pointer;
+}
+
+.colorBoxStyle {
+  display: flex;
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+  width: 50%;
+  place-items: center;
+  place-content: space-around;
+}
+
+div[id^="font-picker"] {
+  border: 1px solid #e5e5e5 !important;
+  border-radius: 3px !important;
+  /* width: 48% !important; */
+  height: fit-content;
+  color: #000;
+  margin-bottom: 10px;
+  width: 100% !important;
+  box-shadow: none !important;
+}
+div[id^="font-picker"] .dropdown-button {
+  background: white !important;
+  /* width: 95%; */
+  padding: 5px !important;
+  margin: 0px !important;
+  height: 28px !important;
+}
+
+div[id^="font-picker"] ul {
+  background: white;
+  color: black;
+}
+
+div[id^="font-picker"] p {
+  display: flex;
+  flex: none;
+}
+
+.AlignmentBackground {
+  padding: 5px;
+  height: 35px;
+  width: 35px;
+  cursor: pointer;
+  background: none;
+}
+
+.AlignmentBackgroundActive {
+  background: #d9d9d9;
+  border-radius: 5px;
+}
+
+.displayColorHide {
+  display: none;
+  position: fixed;
+  right: 300px;
+  bottom: 0px;
+  text-align: center;
+  background-color: #ffffff;
+  color: #000;
+}
+
+.displayColorShow {
+  display: block;
+  position: fixed;
+  right: 500px;
+  bottom: 0px;
+  text-align: center;
+  background-color: #ffffff;
+  color: #000;
+}
+
+.colorBoxStyleContainer {
+  display: flex;
+  place-content: space-between;
+  position: relative;
+}
+
+.actionButtonContainer {
+  width: 100%;
+  display: flex;
+  place-content: space-between;
+}
+.VarientContainer {
+  width: 100%;
+  display: flex;
+  place-content: space-between;
+  align-items: center;
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+.actionButtonContainer img {
+  width: 20px;
+  height: 20px;
+}
+.VarientContainer img {
+  width: 10px;
+  height: 12px;
+}
+
+.actionButton {
+  /* background: #d9d9d9; */
+  border-radius: 5px;
+  padding: 5px;
+  height: 35px;
+  width: 35px;
+  cursor: pointer;
+  background: none;
+}
+.actionButton:hover {
+  background: #d9d9d9;
+  border-radius: 5px;
+  padding: 5px;
+  height: 35px;
+  width: 35px;
+}
+
+.varientButton {
+  border-radius: 5px;
+  padding: 0px;
+  height: 25px;
+  width: 25px;
+  display: flex;
+  place-content: center;
+  place-items: center;
+  background: none;
+}
+.varientButton:hover {
+  background: #d9d9d9;
+  border-radius: 5px;
+  padding: 0px;
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+  display: flex;
+  place-content: center;
+  place-items: center;
+}
+
+.__react_component_tooltip::before,
+.__react_component_tooltip::after {
+  content: none !important;
+}

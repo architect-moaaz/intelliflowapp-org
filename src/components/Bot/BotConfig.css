@@ -1,0 +1,199 @@
+.bot_body {
+  padding-top: 35px;
+}
+.header-menu-right {
+  float: right;
+  margin: 20px;
+  padding-right: 20px;
+}
+.header-menu-right span {
+  padding: 6px;
+}
+.header-menu-right span .add-bot {
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+  color: #0d3c84;
+  margin-left: 10px;
+}
+.header-menu-right span .import-QA {
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+  color: #0d3c84;
+  margin-left: 10px;
+}
+.header-menu-left {
+  float: left;
+  margin: 20px;
+  padding-left: 25px;
+  font-size: 26px;
+}
+.bot-header {
+  margin: 0px 40px 30px 40px;
+}
+.accordion_body {
+  padding-top: 80px;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+.accordion_body .bot-content {
+  padding: 20px;
+  margin: 20px 40px 20px 40px;
+  border-radius: 12px;
+}
+
+/* .accordion_body .bot-content{
+    padding: 30px 30px 60px 30px;
+} */
+.accordion_item .accordion-content {
+  margin-top: 40px;
+}
+.accordion_item .accordion-content textarea {
+  width: 400px;
+  margin: 8px 0px 5px 0px;
+  padding: 5px;
+  padding-left: 15px;
+  height: auto;
+}
+
+.accordion .addproperty {
+  color: #3276ea;
+  font-size: 14px;
+  font-weight: bolder;
+  cursor: pointer;
+  background-color: #fafafa;
+  padding: 10px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+  top: 100px;
+  margin-bottom: 40px !important;
+}
+.addproperty:hover {
+  background-color: #0d3c84;
+  color: white;
+}
+
+.inputfield {
+  background-color: #fafafa;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+  border: 4px;
+  /* height: 40px; */
+}
+.accordion-item .bot-accordion-header {
+  background-color: #f2f2f2;
+  color: #0d3c84;
+  width: 100%;
+}
+.bot-content {
+  border-radius: 200px;
+}
+.bot-content .header-content {
+  display: flex;
+}
+
+.header-menu-right input {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #000000;
+  padding: 10px;
+  width: 250px;
+  background: #fbfbfb;
+}
+.sub-heading {
+  background-color: #d9d9d9;
+  padding: 8px;
+  border-radius: 4px;
+  margin-bottom: 30px !important;
+}
+
+.train-button {
+  margin-left: 50px;
+  float: left;
+}
+.train-button button {
+  margin: 20px !important;
+}
+.accordion-content .buttonFunctionUpdate {
+  float: right;
+  margin: 30x;
+}
+.accordion-content .buttonFunctionUpdate {
+  width: 90px;
+  height: 34px;
+  float: right;
+  margin: 50px;
+}
+
+.questionContent,
+.answerContent {
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+}
+.bot-content .accordion-item-dropDown {
+  transform: rotate(360deg);
+  float: left;
+  margin: 6px 10px 8px 10px;
+}
+.bot-content .collapsed .accordion-item-dropDown {
+  transform: rotate(-90deg);
+}
+.delete-Question {
+  transform: rotate(180deg);
+}
+.delete-Question .kebabMen .qa-dropdown {
+  position: absolute;
+  inset: auto !important;
+  transform: translate3d(10px, -65px, 220px) rotate(180deg) !important;
+}
+.accordion-content .add-element {
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.modal-content .training-footer .training-Cancel {
+  width: 100px;
+  margin-left: 42% !important;
+  margin-bottom: 40px !important;
+}
+.bot-modal {
+  top: 80px;
+}
+.modal-content .modal-body .training-scanner img {
+  margin-left: 90px !important;
+}
+.bot_body .bot-breadCrum {
+  margin-top: 5px !important;
+  margin-bottom: 10px;
+  padding-top: 5px !important;
+  margin-left: 80px;
+}
+
+.bot-main-container {
+  margin-left: 70px;
+  margin-top: 50px;
+}
+
+.import-input-field {
+  padding-left: 25%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.answersProperty {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+}
+
+.pick-content-modal .content-property {
+  font-size: 14px;
+  font-weight: bolder;
+  cursor: pointer;
+  background-color: #fafafa;
+  padding: 10px;
+  box-shadow: 2px 2px 2px rgb(0 0 0 / 25%);
+  top: 100px;
+  margin-bottom: 40px !important;
+}
+ .content-property :hover{
+    background-color: #0d3c84;
+    color: white;
+}

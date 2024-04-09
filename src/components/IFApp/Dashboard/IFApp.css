@@ -1,0 +1,279 @@
+.your-application {
+  margin-left: 1.5vw;
+  height: calc(100vh - 70px);
+
+  overflow-y: auto;
+}
+
+.mainbody {
+  position: fixed;
+  margin-top: 0vh;
+}
+.application-box {
+  width: 145px;
+  height: 124px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 2vh;
+}
+.Grid-View-card-wrap {
+  height: 135px;
+  width: 154px;
+  border-radius: 10px;
+  display: flex;
+  margin-bottom: 8px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1vh;
+}
+.card-date {
+  /* display: flex; */
+  /* align-items: center;
+    margin-left: 15px;
+   */
+}
+.card-date h6 {
+  font-size: 10px;
+  font-weight: 500;
+  color: #8a8a8a;
+  margin-top: 10px;
+}
+.card-image {
+  margin-bottom: 1vh;
+}
+.card-wrap-process {
+  /* position: absolute; */
+  width: 310px;
+  height: 124px;
+  left: 0px;
+  top: 0px;
+  margin: 10px 15px;
+  background: #ffffff;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.card-border {
+  box-sizing: border-box;
+  width: 290px;
+  height: 76px;
+  background: rgba(229, 229, 229, 0.5);
+  border-radius: 8px;
+  display: flex;
+  place-items: center;
+  margin: 9px auto;
+}
+.application-wrap {
+  margin-left: 1.5vh;
+  margin-top: 15px;
+}
+.btn-app {
+  border-bottom-right-radius: 8px !important;
+}
+.process {
+  height: 68px;
+  width: 97px;
+  /* width: 15%;
+    min-width: 15%; */
+}
+.processimg {
+  height: 75px;
+  width: 110px;
+}
+
+.breadCrum {
+  display: flex;
+  margin-left: 20px;
+  padding-top: 80px;
+  width: 100vw;
+}
+
+.application-mains {
+  padding: 0;
+  margin-top: 80px;
+  width: 100%;
+}
+
+.ListGridContainer {
+  display: flex;
+  justify-content: flex-end;
+}
+.GridListIconContainer {
+  background: #ffffff;
+  border: 1px solid #e5e9eb;
+  box-shadow: 1px 1px 2px rgb(0 0 0 / 7%), 0px 2px 2px rgb(0 0 0 / 9%);
+  border-radius: 4px;
+  width: 52px;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 23px;
+}
+
+.GridListIconActive {
+  outline: 1px solid #0d3c84;
+  border-radius: 3px;
+  padding: 5px;
+  fill: #0d3c84;
+  height: 25px;
+  width: 25px;
+}
+.GridListIconNotActive {
+  outline: none;
+  border-radius: 3px;
+  padding: 5px;
+  fill: #8a8a8a;
+  height: 25px;
+  width: 25px;
+}
+
+.GridListIconContainer :hover {
+  cursor: pointer;
+}
+
+.application-content {
+  margin-top: 0px;
+}
+.breadCrum h6 {
+  align-self: center;
+  place-self: center;
+  text-decoration: none;
+  margin: 0px 5px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgba(60, 60, 60, 0.8);
+}
+
+.breadCrum a:nth-child(1) {
+  display: flex;
+  align-self: center;
+}
+
+.breadCrum a {
+  align-self: center;
+  place-self: center;
+}
+
+.breadCrum a img {
+  height: 17px;
+  width: 17px;
+}
+
+.main {
+  display: flex;
+  position: relative;
+}
+.viewBtn {
+  margin-left: 160vh;
+  display: flex;
+  /* justify-content: flex-end; */
+}
+.listbtn {
+  margin-right: 25px;
+}
+.pendingimage {
+  margin-top: -25px;
+}
+.Grid-view-cardstatus {
+  color: #ff5711;
+  font-size: 14px;
+  font-weight: 700;
+  margin: 10px 0px;
+}
+.Grid-view-cardstatusCompleted {
+  color: rgba(71, 168, 94, 1);
+  font-size: 14px;
+  font-weight: 700;
+  margin: 10px 0px;
+}
+.sidearrowIco {
+  margin-left: 278px;
+  margin-top: 14px;
+}
+.noRecord {
+  box-sizing: border-box;
+
+  width: 973px;
+  height: 178px;
+  left: 137px;
+  top: 181px;
+
+  background: #ffffff;
+  border: 1px solid #c4c4c4;
+  border-radius: 10px;
+}
+.noRecordData {
+  /* position: absolute; */
+  width: 312px;
+  height: 34px;
+  left: 484px;
+  top: 253px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 22px;
+  /* or 88% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 1px;
+
+  color: #8a8a8a;
+  margin-left: 399px;
+  margin-top: 77px;
+}
+.dateandtimeforrecentaction {
+  width: 100%;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  color: #3c3c3c;
+  margin: 10px 0px;
+}
+
+.recentActionProcessName {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 10px;
+}
+
+.IFapplication-card-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  overflow-y: auto;
+  height: 295px;
+}
+
+.SearchProcessHistorySearch {
+  border: 0.5px solid #8a8a8a;
+  border-radius: 5px;
+  width: 50%;
+  margin: 9.5px;
+  height: 30px;
+  padding: 9px 4px 9px 40px;
+  background: transparent
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E")
+    no-repeat 13px center;
+  background-color: white;
+}
+.SearchProcessHistorySearch:focus-visible {
+  border: 0.5px solid #888181;
+  outline: none;
+}
+
+.SearchProcessHistory {
+  background: #f3f3f3;
+  width: 100%;
+  height: 45px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border: 0.5px solid white;
+}
+.cardappdot {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}

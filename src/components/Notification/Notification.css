@@ -1,0 +1,58 @@
+.notification-header-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.notification-header-wrap h5 {
+  margin-bottom: 0;
+  letter-spacing: 1px;
+  color: rgba(60, 60, 60, 0.8);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  margin-right: auto;
+}
+
+.notification-list {
+  min-height: 53vh;
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
+
+.notification-list li a {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+  text-decoration: none;
+}
+
+.notification-list li a span {
+  width: 24px;
+  height: 24px;
+  display: block;
+  margin-right: 15px;
+}
+
+.notification-list li a p {
+  width: calc(100% - 40px);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.notification-list li a p i {
+  font-style: normal;
+  font-weight: 600;
+}
+
+/* @media (max-width: 991px) {
+  .notification-box {
+    padding: 10px;
+    max-height: 400px;
+    overflow: auto;
+  }
+} */

@@ -1,0 +1,94 @@
+.gridView-your-application {
+  margin-left: 1.5vw;
+}
+
+.gridView-your-application .gridView-application-wrap {
+  flex-wrap: nowrap;
+  height: 190px;
+  margin-left: 1.5vh;
+  margin-top: 15px;
+  display: flex;
+  overflow-x: auto;
+  overflow-y: auto;
+  white-space: nowrap;
+}
+.gridView-application-title-wrap {
+  align-items: center;
+  display: flex;
+  margin: 18px 0 10px;
+}
+.gridView-application-title-wrap h4 {
+  margin: 0 auto 0 0;
+}
+.gridView-application-title-wrap ul {
+  align-items: center;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.gridView-application-title-wrap ul li button svg {
+  color: #a1b5c3;
+  font-size: 20px;
+  margin-right: 4px;
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.gridView-application-title-wrap ul li button {
+  color: #3c3c3c;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  text-decoration: none;
+}
+.gridView-application-mains {
+  height: 100%;
+  padding: 15px 40px;
+  width: 100%;
+  padding: 0;
+}
+.gridView-application-content {
+  margin-top: 0;
+}
+.reload-icon {
+  height: 15px;
+  width: 15px;
+  display: flex;
+  margin-left: 10px;
+}
+.gridView-application-box-info {
+  width: 100%;
+  height: 100%;
+}
+.gridView-application-box-info .ellipsis {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.processHistory-popup-body .processHistory-content {
+  position: relative;
+  justify-content: flex-start !important;
+  margin-bottom: 10px;
+}
+.processHistory-content-data {
+  margin-left: 15px;
+}
+.ProcessHistory-row {
+  height: 355px;
+}
+.button-prop .ProcessHistory-button {
+  width: 80px;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+  color: #ffffff;
+  background: #ff5711;
+  border: 0.5px solid #ff8872;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  width: auto;
+}

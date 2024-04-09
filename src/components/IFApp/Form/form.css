@@ -1,0 +1,348 @@
+.thank-you-pop {
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+.saveBtn {
+  color: blue;
+  padding: 21px !important;
+  padding-bottom: 47px !important;
+  background-color: white !important;
+  border: 1px solid blue;
+  width: 50%;
+  align-items: center;
+  font-style: normal;
+  height: 21px;
+  border-radius: 13px;
+}
+.thank-you-pop img {
+  width: 76px;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 25px;
+}
+
+.thank-you-pop h1 {
+  font-size: 30px;
+  margin-bottom: 25px;
+  color: #5c5c5c;
+}
+.thank-you-pop p {
+  font-size: 20px;
+  margin-bottom: 27px;
+  color: #5c5c5c;
+}
+.thank-you-pop h3.cupon-pop {
+  font-size: 25px;
+  margin-bottom: 40px;
+  color: #222;
+  display: inline-block;
+  text-align: center;
+  padding: 10px 20px;
+  border: 2px dashed #222;
+  clear: both;
+  font-weight: normal;
+}
+.thank-you-pop h3.cupon-pop span {
+  color: #03a9f4;
+}
+.thank-you-pop a {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 9px 20px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+  background-color: #8bc34a;
+  border-radius: 17px;
+}
+.thank-you-pop a i {
+  margin-right: 5px;
+  color: #fff;
+}
+#ignismyModal .modal-header {
+  border: 0px;
+}
+/*--thank you pop ends here--*/
+
+.is-invalid {
+  /* border-color: #dc3545; */
+  border: 1px solid #dc3545;
+  /* outline-color: #dc3545; */
+}
+.is-invalid:focus {
+  /* border: 2px solid #dc3545; */
+  box-shadow: 0 0 0 0.2rem rgb(220 53 69 / 25%);
+  outline-color: #dc3545;
+}
+
+.requiredTextColor {
+  color: #dc3545;
+}
+
+.fieldLable {
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #171717;
+}
+
+.inputStyle {
+  padding: 8px 12px 8px 10px !important;
+  border: 1px solid #adadad !important ;
+  border-radius: 4px !important;
+}
+.inputStyleSelect {
+  /* padding: 8px 12px 8px 10px !important; */
+  border: 1px solid #adadad !important ;
+  border-radius: 4px !important;
+}
+
+/* input[type="file"] {
+  display: none;
+} */
+
+.custom-file-upload {
+  border: 1px solid #adadad;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  background: #f8f8fb;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(17, 169, 255, 0.5);
+  display: flex;
+  align-items: center;
+  place-content: center;
+}
+
+label {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #171717;
+}
+
+.groupBtnDiv {
+  display: flex;
+  /* position: absolute; */
+  bottom: 0;
+  left: 90px;
+  right: 8px;
+  /* width: 100%; */
+  justify-content: center;
+  z-index: 100;
+  background: rgb(255 255 255);
+}
+
+.saveBtnForm {
+  background: #ffffff;
+  border: 1px solid #f50e0e;
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 22px;
+  align-items: center;
+  color: #f50e0e;
+  width: 95px;
+  height: 30px;
+}
+
+/* .AbortBtn {
+  background: #ffffff;
+  border: 1px solid #f50e0e;
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 22px;
+  align-items: center;
+  color: #f50e0e;
+  width: 95px;
+  height: 30px;
+}
+
+.ReleaseBtn {
+  background: #ffffff;
+  border: 1px solid #fa5b3d;
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 22px;
+  align-items: center;
+  color: #fa5b3d;
+  width: 95px;
+  height: 30px;
+}
+
+.CompleteBtn {
+  background: #0050d8;
+  border-radius: 5px;
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 22px;
+  align-items: center;
+  color: #ffffff;
+  width: 95px;
+  height: 30px;
+} */
+
+.ClaimBtn {
+  background: #ffffff;
+  border: 1px solid #0050d8;
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 22px;
+  align-items: center;
+  color: #0050d8;
+  width: 95px;
+  height: 30px;
+}
+
+.css-1s2u09g-control {
+  background: white !important;
+}
+.css-1s2u09g-control,
+.css-1pahdxg-control,
+.css-1pahdxg-control:hover {
+  background: white !important;
+}
+
+.RenderFormBtn {
+  margin: 10px;
+}
+.clear-button {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border: 1px solid black;
+  padding-right: 5px !important;
+  padding-left: 5px !important;
+  background-color: coral;
+  color: #ffffff;
+}
+
+.custom-file-input::-webkit-file-upload-button {
+  /* visibility: hidden; */
+  display: none;
+  text-align: center;
+}
+
+input[type="date"]::-webkit-datetime-edit-year-field {
+  color: #000;
+}
+input[type="date"]::-webkit-datetime-edit-month-field {
+  color: #000;
+}
+input[type="date"]::-webkit-datetime-edit-day-field {
+  color: #000;
+}
+/* --------------------------------------------------------------------------------------------------------------------------- */
+.RenderForm-Container {
+  position: relative;
+  height: calc(100vh);
+  padding: 0px;
+  overflow-y: auto;
+  background: rgb(255 255 255);
+}
+
+.FormPreviewContainer {
+  position: relative;
+  height: 100vh;
+  width: 79.4vw;
+  margin: 0 1.5vw;
+  padding: 0px;
+  background: rgb(255 255 255);
+  overflow-y: auto;
+}
+.RenderFormTest-Body {
+  padding-top: 9vh;
+}
+.RenderFormTest-Content {
+  position: relative;
+  height: calc(100vh - 9vh);
+}
+
+.section-container {
+  position: relative;
+  padding: 0px;
+  width: 100%;
+  /* height: 100vh; */
+  background: rgb(255 255 255);
+  overflow-y: auto;
+}
+
+.inputNumber::-webkit-inner-spin-button,
+.inputNumber::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* margin: 0; */
+}
+
+.renderForm-fileType-okbutton {
+  margin-left: 90%;
+}
+.renderForm-fileType-body {
+  text-align: center;
+  margin-top: 20px;
+}
+.renderForm-fileType-body .renderForm-fileType-alertIcon {
+  color: red;
+  margin-right: 10px;
+  align-items: center;
+  text-align: center;
+}
+
+.react-datepicker-wrapper {
+  height: 95%;
+  display: inline-block;
+  padding: 0;
+  border: 0;
+  width: 100%;
+}
+
+.react-datepicker__input-container {
+  height: 100%;
+  width: 100%;
+}
+
+#renderForm-formElementType-date {
+  height: 100%;
+  width: 100%;
+}
+
+.blur {
+  backdrop-filter: blur(5px);
+}
+
+.close-button {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background-color: #fff;
+  color: #000;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.inputStyleNumber {
+  padding-top: 10px !important;
+  padding-right: 12px;
+  padding-bottom: 10px !important;
+  padding-left: 10px;
+  border: 1px solid #adadad !important;
+  border-radius: 4px !important;
+}
